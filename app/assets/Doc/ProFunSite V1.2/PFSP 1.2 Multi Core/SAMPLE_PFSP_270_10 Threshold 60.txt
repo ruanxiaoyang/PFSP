@@ -1,0 +1,975 @@
+03/23/09 16:12:18
+Protein Functional Sites Prediction--PFSP:(C++) Copyright 2009,Ruan Xiaoyang
+Information drawn from 270 sequences
+
+Conservative site estimation (DetaG)
+Conservation  '*':identical  '-':LOW(<90% percentile)  'm':moderate(90% percentile DetaG:369.65KT)  'h':high(95% percentile DetaG:540.091KT)  DetaG(min):43.0629KT)  DetaG(max):641.157KT)
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+                                                                                  *         *    *                 *                                                                
+   0 ------------------------------------CPEIEAQGNECLKEYGGD---------VGFG---------FCAPRI-FPTICYT-RCRENK-----GA----KGG--RCRWGQ---GSNVKCLC--------D-------------FCGDTPQ---------------- 0
+   1 ---------------------------MNDFVFLVVACLLTAGTEGKKDGYPVE--------GDNCA--------FVCFGYD--NAYCDK-LCKDKKA----D------SG-Y-CYWV------HILCYCYG----LPDKEPT-----KTNGRCKPGKK---------------- 1
+   2 ---------------------------MKLLLLLTISASMLIEGLVNADGYIRG--------GDGCKV--------SCVIN---HVFCDN-EC---KAA--GGS-----YG-Y-C-WA-----WGLACWCEG----LPAEREW----DYETDTCGGKK----------------- 2
+   3 ---------------------------MKLLLLLTISASMLIEGLVNADGYIRG--------GDGCKV--------SCVIN---HVFCDN-EC---KAA--GGS-----YG-Y-C-WG-----WGLACWCEG----LPAEREW----DYETDTCGGKK----------------- 3
+   4 ---------------------------MKLLLLLTISASMLIEGLVNADGYIRG--------GDGCKV--------SCVIN---HVFCDN-EC---KAA--GGS-----YG-Y-C-WG-----WGLACWCEG----LPADREW----DYETDTCGGKK----------------- 4
+   5 ---------------------------MKLLLLLTISASMLIEGLVNADGYIRG--------GDGCKV--------SCVIN---HVFCDN-EC---KAA--GGS-----YG-Y-C-WA-----WGLACWCEG----LPADREW----DYETDTCGGKK----------------- 5
+   6 ---------------------------MKLLLLLTISASMLIEGLVNADGYIRG--------GDGCKV--------SCVIN---HVFCDN-EC---KAA--GGS-----YG-Y-C-WG-----WGLACWCEG----LPAEREW----DYETNTCGGKK----------------- 6
+   7 ---------------------------MKLLLLLTISASMLIEGLVNADGYIRG--------GDGCKV--------SCVIN---HVFCDN-EC---KAA--GGS-----YG-Y-C-WA-----WGLACWCEG----LPAEREW----DYETNTCGGKK----------------- 7
+   8 ---------------------------MKLLLLLTISASMLIEGLVNADGYIRG--------GDGCKV--------SCVIN---HVFCDN-EC---KAA--GGS-----YG-Y-C-WG-----WGLACWCEG----LPADREW----DYETNTCGGKK----------------- 8
+   9 ---------------------------MKLLLLLTISASMLIEGLVNADGYIRG--------GDGCKV--------SCVIN---HVFCDN-EC---KAA--GGS-----YG-Y-C-WA-----WGLACWCEG----LPADREW----DYETNTCGGKK----------------- 9
+  10 --------------------------------------LVMAGVESVKDGYIVD--------DRNCT-------Y-FCGR----NAYCNE-ECT--KL---KGE-----SG-Y-CQWAS---PYGNACYCYK----VPDHVRT-----KGPGRCN-------------------- 10
+  11 ------------------------------------------------DGYPVD--------SKGCK--------LSCVA----NNYCDN-QCKMKKA---SG-------G--HCYA--------MSCYCEG----LPENAKVS---DSATNICG-------------------- 11
+  12 -----------------------------------------------KDGYPVD--------SKGCK--------LSCVA----NNYCDN-QCKMKKA---SG-------G--HCYA--------MSCYCEG----LPENAKVS---DSATNICG-------------------- 12
+  13 -----------------------------------------------KDGYLVG--------NDGCK-------Y-NCLTRP--GHYCAN-ECSRVK-----GK-----DG-Y-CYA-------WMACYCYS----MPDWVKTW---SRSTNRCGR------------------- 13
+  14 ----------------------------------------------KIDGYPVD--------NWNCK--------RICWYN---NKYCYD-LCKGLKA----D------SG-Y-CWGW------TLSCYCEG----LPDNARI-----KRGGRCN-------------------- 14
+  15 ----------------------------------------------VRDAYIAQ--------NYNCV-------Y-HCAR----DAYCNE-LCT--KN----GA----KSGS--CPYLG---EHKFACYCKD----LPDNVPI-----RVPGKCH-------------------- 15
+  16 ----------------------------------------------GRDAYIAD--------SENCT-------Y-FCGS----NPYCND-VCT--EN----GA----KSG-Y-CQWAG---RYGNACYCID----LPASERI-----KEGGRCG-------------------- 16
+  17 ---------------------------------------------MVRDAYIAK--------NYNCV-------Y-ECFR----DAYCNE-LCT--KN----GA----SSG-Y-CQWAG---KYGNACWCYA----LPDNVPI-----RVPGKC--------------------- 17
+  18 ----------------------------------------------VKDGYIVD--------DVNCT-------Y-FCGR----NAYCNE-ECT--KL---KGE-----SG-Y-CQWAS---PYGNACYCYK----LPDHVRT-----KGPGRCH-------------------- 18
+  19 ------------------------------------------------DGYIRG--------SDGCKV--------SCLWG---NEFCDK-VC---KNS--GGS-----YG-Y-C-WT-----WGLACWCEG----LPDNETW----KYESNTCGS------------------- 19
+  20 ------------------------------------------------DGYIRG--------SDGCKV--------SCLWG---NDFCDK-VC---KKS--GGS-----YG-Y-C-WT-----WGLACWCEG----LPDNETW----KYESNTCGS------------------- 20
+  21 ------------------------------------------------DGYIRG--------SNGCKV--------SCLWG---NEGCNK-EC---RA---YGA----SYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGS------------------- 21
+  22 --------------------------MNYLTMISLALLVMTGVESGVRDAYIAD--------NKNCI--------FTCYR----DSYCKT-ECI--KN----GAE----TG-Y-CIWIG---EYGNACWCIK----LPNKVPI-----KVPGKCNGR------------------ 22
+  23 -----------------------------------------------MDGYIKR--------RDGCKV--------ACLIG---NEGCDK-EC---KA--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSETNTCG-------------------- 23
+  24 ----------------------------------------IGMVVECKDGYLVG--------NDGCK-------Y-SCFTRP--GTYCAN-ECSRVK-----GK-----DG-Y-CYA-------WMACYCYS----MPNWVKTW---DRATNRCGRGK----------------- 24
+  25 ----------------------------------------IGMVVECKDGYLMG--------PDGCK--------LDCLMR--KGTFCAE-TCSLRK-----GK-----DG-Y-CYA-------WLACYCYN----MPDSVKVW---ERATNRCGKGK----------------- 25
+  26 ----------------------------------------IGMVIECKDGYLME--------PNGCK--------RGCLTRP--ARYCPN-ECSRLK-----GK-----DG-Y-CYL-------WLACYCYN----MPESAPVW---ERATNRCGKGK----------------- 26
+  27 ----------------------------------------IGMVAECKDGYLVG--------DDGCK--------MHCFTRP--GHYCAS-ECSRVK-----GK-----DG-Y-CYA-------WLACYCYN----MPNWAPIW---NSATNSCGKGK----------------- 27
+  28 ----------------------------------------IGMAVECKDGYLVG--------DDGCK--------MHCFTRP--GHYCAS-ECSRVK-----GK-----DG-Y-CYA-------WLACYCYN----MPNWAPIW---NSATNRCRGRK----------------- 28
+  29 ----------------------------------------IGMAVECKDGYLVG--------ADGCK-------Y-GCFTRP--GHFCAS-ECSLLK-----GK-----DG-Y-CYA-------WLACYCYN----LPDSVPVW---DSATNRCGKGK----------------- 29
+  30 ---------------------------------------IGMIVECEKEGYLME--------ANGCK--------RSCTLRP--GHYCAN-ECSYVK-----GK-----NG-Y-CYA-------WVACYCYN----MPDSVKIW---DSATNTCGRGK----------------- 30
+  31 ----------------------------------------IGMVVECKDGYLVG--------NDGCK-------Y-SCSTRP--GHYCAS-ECSRVK-----GK-----DG-Y-CYA-------WLACYCYN----MPNWAPIW---NSATNRCRGRK----------------- 31
+  32 ---------------------------MTRFVLFICCFFLIGMVVECKDGYLVG--------NDGCK-------Y-SCFTRP--GTYCAN-ECSRVK-----GK-----DG-Y-CYA-------WMACYCYS----MPNWVKTW---DRATNRCGRGK----------------- 32
+  33 ----------------------------------------IGMVIECKDGYLME--------PNGCK--------RGCLTRP--ARYCAN-ECSRVK-----GT-----DG-Y-CYA-------WLACYCYN----MPNWVKTW---DRATNTCGRGK----------------- 33
+  34 ----------------------------------------IGVAVECKDGYLMG--------SDGCK--------LDCLMK--KGTYCAD-ECSRVK-----GK-----DG-Y-CYL-------WLACYCYN----MPDSVKVW---ERATNRCGKGK----------------- 34
+  35 ----------------------------------------IGMVVECKDGYLMG--------PDGCK--------RGCLTRP--ARYCPN-ECSRLK-----GK-----DG-Y-CYL-------WLACYCYN----MPESAPVW---ERATNRCGKGK----------------- 35
+  36 ---------------------------MNYLVFFSLALLVMTGVESVKDGYIAD--------DRNCP-------Y-FCGR----NAYCDE-ECK--KN----RAE----SG-Y-CQWAG---KYGNACWCYK----LPDDART-----MKPGRCNGG------------------ 36
+  37 ----------------------------------MMKFVLFGMIVILFSLMGSIRG----DDDPGNYPTNAYGNKYYCTILG-ENEYCRK-IC---KL---HGVT----YG-Y-CYN--------SRCWCE------KLE-----------DKDVTIWNAVKNHCTNTILYPNGK 37
+  38 ---------------------------MKGMIMLISCLMLIDVVVESKNGYIIE--------PKGCK-------Y-SCFWGS--STWCNR-ECKFKK-----GS-----SG-Y-CAW--------PACWCYG----LPDNVKIF---DYYNNKCGK------------------- 38
+  39 ---------------------------------------------MVRDAYIAD--------DVNCV-------Y-ECFR----DAYCNE-LCT--KN----GA----SSG-Y-CQWAG---KYGNACWCYA----LPDNVPI-----RVPGKCR-------------------- 39
+  40 ---------------------------------------------MVRDAYIAK--------NYNCV-------Y-ECFR----DAYCNE-LCT--KN----GA----SSG-Y-CQWAG---KYGNACWCYA----LPDNVPI-----RVPGKCR-------------------- 40
+  41 --------------------------------------------NSVRDAYIAD--------SHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCH-------------------- 41
+  42 --------------------------------------------NSVRDAYIAD--------SHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----KVGGKCH-------------------- 42
+  43 --------------------------------------------NSVRDAYIAD--------SHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----KGPGKCH-------------------- 43
+  44 --------------------------------------------NSVRDAYIAG--------PHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCH-------------------- 44
+  45 --------------------------------------------NSVRDAYIAD--------SHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----KVPGKCH-------------------- 45
+  46 --------------------------------------------NSVRDAYIAA--------PHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCH-------------------- 46
+  47 ----------------------------------------------KKEGYLVG--------NDGCK-------Y-SCFTRP--AQYCVH-ECELRK-----GT-----DG-Y-CYA-------WLACYCYN----MPDHVRTW---SRATNRCGS------------------- 47
+  48 ----------------------------------MMKFLLFGMFVILFSLMGSIRG----DDDPGNYPTNAYGNKYYCTILG-ENEYCRK-IC---KL---HGVT----YG-Y-CYN--------SRCWCE------KLE-----------DKDVTI------------------ 48
+  49 ----------------------------------MMKLMLFSIIVILFSLIGSIHG----ADVPGNYPLDSSDDTYLCAPLG-ENPFCIK-ICR--K----HGV----KYG-Y-CYA--------FQCWCEY----LED-------------KNVKI------------------ 49
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+  50 ----------------------------------MMKLVLFSVIVILFSLIGSIHG----ADVPGNYPLRPFRYRYGCAVPG-DSDYCVR-VCR--K----HGV----RYG-Y-C-WF-------FTCWCEY----LED-------------KNIKI------------------ 50
+  51 ---------------------------------------------GVRDAYIAD--------DKNCV-------Y-TCGS----NSYCNT-ECT--KN----GAE----SG-Y-CQWFG---RWGNGCWCIK----LPDKVPI-----RIPGKCR-------------------- 51
+  52 -------------MDMATKSVSSLAAFLILFLVIFEMPEIEAQDSECLKEYGGD---------VGFG---------FCAPRI-YPSFCVQ-RCRADK-----GA----LSG--KCIWGQ---GGNVKCLC-------N--------------FCRHEPGQILSGI---------- 52
+  53 -------------MAFATKSVSSFAIIFILVLVIFEVPEIEAQDDECLKEYGGD---------VGFS---------FCAPEI-FPSFCYT-NCRKDK-----GA----LGG--TCIWGD----SDVKCLC--------D-------------YCSDIPNGKILRGGI-------- 53
+  54 ---------------MAIKPLSIFVVFFIFFLVISDMPEIEAQDSKCLREYGGD---------VGFG---------FCAPRI-FPTFCYT-RCRENK-----GA----KGG--RCRWGQ---GTNVTCLC--------D-------------YCNDQP----------------- 54
+  55 ----------------------------------------------NKDGYLME--------GDGCK--------MGCLTR--KASYCVD-QCK-EV----GGK-----DG-Y-CYA-------WLSCYCYN----MPDSVEIW---DSKNNKCGK------------------- 55
+  56 ---------------------------------------------GVRDAYIAD--------DKNCV-------Y-TCAS----NGYCNT-ECT--KN----GAE----SG-Y-CQWIG---RYGNACWCIK----LPDEVPI-----RIPGKCR-------------------- 56
+  57 -------------------------------------------DSECLKEYGGD---------VGFP---------FCAPWR-HPTICYT-RCRENK-----GA----KGG--RCIWGE---GTNVKCLC--------D-------------YCNDSPFDQ-------------- 57
+  58 ---------------------------MNYLVFFSLALLLMTGVESVRDGYIAD--------DKNCA-------Y-FCGR----NAYCDD-ECK--K----KGAE----SG-Y-CQWAG---VYGNACWCYK----LPDKVPI-----RVPGRCNGG------------------ 58
+  59 ----------------------------MNSLLMITTCLVLFGTVWAKEGYLVSK-------STGCK-------Y-ECFWLG-KNEGCDK-EC---KAPNQGGG-----YG-Y-CHA--------FACWCEN----LPESTPTY---PIPGKSCGKK------------------ 59
+  60 ----------------------------MNSLLMITACLALIGTVWAKEGYLVSK-------STGCK-------Y-ECFWLG-KNEGCDK-EC---KAPNQGGG-----YG-Y-CHA--------FACWCEN----LPESTPTY---PIPGKSCGKK------------------ 60
+  61 ----------------------------------------------AKDGYLVNK-------STGCK-------Y-ECFWLG-KNEFCDK-EC---KAKNQGGS-----YG-Y-CYS--------FACWCEG----LPESTSTY---PLPNKSCGRK------------------ 61
+  62 ----------------------------MNSLLMITACLFLIGTVWAKEGYLVNK-------STGCK-------Y-ECFWLG-KNEFCDK-EC---KAKNQGGS-----YG-Y-CYS--------FACWCEG----LPESTSTY---PLPNKSCGRK------------------ 62
+  63 ----------------------------------------------AREGYLVNK-------STGCK-------Y-ECFWLG-KNEFCDK-EC---KAKNQGGS-----YG-Y-CYS--------FACWCEG----LPESTSTY---PLPNKSCGRK------------------ 63
+  64 -----------------------------------------------KEGYAMD--------HEGCK--------LSCFIRP--SGYCGR-ECGYKK-----GS-----SG-Y-CAW--------PACYCYG----LPNWVKVW---ERATNRCGKK------------------ 64
+  65 ---------------------------MKRMILFTSCLLLIDIVVGGKEGYPAD--------SKGCKV--------TCFLTA--AGYCNT-ECKLQKA----S------SG-Y-CAW--------PACYCYG----LPDSASVW---DSATNKCGKK------------------ 65
+  66 ---------------------------MNYLVVICFALLLMTGVESGRDAYIAD--------NLNCA-------Y-TCGS----NSYCNT-ECT--KN----GAV----SG-Y-CQWLG---KYGNACWCIN----LPDKVPI-----RIPGACRGR------------------ 66
+  67 ------------------------------------------------DGYIRK--------RDGCK--------LSCSLAWLDNENCRQ-EC---IS--YGGT-----YG-Y-C-WF-----WGLACWCEN----LPDEKTW----KSETNTCG-------------------- 67
+  68 ---------------------------MKLFLLLLISASMLIDGLVNADGYIRG--------SNGCKV--------SCLWG---NEGCNK-EC---RA---YGA----SYG-Y-C-WT-----WGLACWCQG----LPDDKTW----KSESNTCGGKK----------------- 68
+  69 ------------------------------------------------DGYIKG--------KSGCRV--------ACLIG---NQGCLK-DC---RA---YGA----SYG-Y-C-WT-----WGLACWCEG----LPDNKTW----KSESNTCG-------------------- 69
+  70 ---------------------------MNYLVFFSLALLLMTGVESVRDGYIAD--------DKNCA-------Y-FCGR----NAYCDD-ECK--KN----GAE----SG-Y-CQWAG---VYGNACWCYK----LPDNVPI-----RVPGKCNGG------------------ 70
+  71 ---------------------------MNYLVMISFAFLLMTGVESARDAYIAQ--------NYNCV-------Y-HCAR----DAYCNE-LCT--KN----GA----KSGS--CPYLG---EHKFACYCKD----LPDNVPI-----RVPGKCNGG------------------ 71
+  72 ---------------------------MNYLVMISFAFLLMTGVESVRDAYIAQ--------NYNCV-------Y-HCAR----DAYCNE-LCT--KN----GA----KSGS--CPYLG---EHKFACYCKD----LPDNVPI-----RVPGKCNGG------------------ 72
+  73 ---------------------------MKLFLLLVISASMLIDGLVNADGYIRG--------SNGCKV--------SCLWG---NEGCNK-EC---KA---FGA----YYG-Y-C-WT-----WGLACWCQG----LPDDKTW----KSESNTCGGKK----------------- 73
+  74 ------------------------------------------------DGYIRG--------SNGCKV--------SCLWG---NEGCNK-EC---RA---YGA----SYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGRKK----------------- 74
+  75 ------------------------------------------------DGYIRG--------SNGCK--------ISCLWG---NEGCNK-EC---KG---FGA----YYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGRKK----------------- 75
+  76 ---------------------------MKLLLLLIVSASMLIESLVNADGYIKR--------RDGCKV--------ACLVG---NEGCDK-EC---KA--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSETNTCGGKK----------------- 76
+  77 ---------------------------MKLLLLLIITASMLIEGLVNADVYIRR--------HDGCK--------ISCTVN---DKYCDN-EC---KS--EGGS-----YG-Y-CYA--------FGCWCEG----LPNDKAW----KSETNTCGGKK----------------- 77
+  78 -------------------------------------MKFFLLFLVVLPIMGVLG------KKNGYAVDSK-GKAPECFF----SNYCNN-ECT--K----VHYA---EKG-YCCL---------LSCYCVGLNDDKKVMEIS----DTRKKICDTTIIN--------------- 78
+  79 -------------------------------------MKFFLLFLVVLPIMGVLG------KKNGYAVDSK-GKAPECFL----SNYCNN-ECT--K----VHYA---DKG-YCCL---------LSCYCFGLNDDKKVLEIS----DTTKKYCDFTIIN--------------- 79
+  80 -------------------------------------MKFFLLFLVVLPIMGVLG------KKNGYAVDSK-GKAPECFL----SNYCNN-ECT--K----VHYA---DKG-YCCL---------LSCYCFGLNDDKKVLEIS----GTTKKYCDFTIIN--------------- 80
+  81 -------------------------------------MKFFLIFLVIFPIMGVLG------KKNGYAVDSS-GKVAECLF----NNYCNN-ECT--K----VYYA---DKG-YCCL---------LKCYCFGLADDKPVLDIW----DSTKNYCDVQIIDLS------------- 81
+  82 ------------------------------------------------DGYPKQ--------KDGCK-------Y-SCTIN---HKFCNS-VC---KS--NGGD-----YG-Y-C-WF-----WGLACWCEG----LPDNKMW----KYETNTCGGKK----------------- 82
+  83 ---------------------------MKLFLLLVISASMLIDGLVNADGYIRG--------SNGCKV--------SCLWG---NEGCNK-EC---KA---FGA----YYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGGKK----------------- 83
+  84 ---------------------------MNYLVFFSLALLVMTGVESVKDGYIAD--------DRNCP-------Y-FCGR----NAYCDG-ECK--KN----RAE----SG-Y-CQWAS---KYGNACWCYK----LPDDARI-----MKPGRCNGG------------------ 84
+  85 ---------------------------MNYLVFFSLALLVMTGVESVRDGYIAD--------DKNCA-------Y-FCGR----NAYCDD-ECK--K----KGAE----SG-Y-CQWAG---VYGNACWCYK----LPDKVPI-----RVPGKCNGG------------------ 85
+  86 --------------------------------------------NSVRDAYIAK--------SHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCH-------------------- 86
+  87 --------------------------------------------NSVRDAYIAQ--------PHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCH-------------------- 87
+  88 --------------------------------------------NSVRDAYIAD--------PHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCH-------------------- 88
+  89 ----------------------------------------------VKDGYIVK--------NYNCT-------Y-FCFR----NAYCNE-ECT--KL---KGE-----SG-Y-CQWAS---PYGNACYCYK----LPDHVPI-----RVPGKCH-------------------- 89
+  90 ----------------------------------------------VSDAYIAK--------PHNCV-------Y-ECAK----NEYCND-LCT--KN----GA----KSG-Y-CQWLG---KYGNGCWCIE----LPDNVPI-----RVPGKCHRK------------------ 90
+  91 ----------------------------------------------VSDAYIAR--------PENCV-------Y-HCAK----NEGCNK-LCT--DN----GAE----SG-Y-CQWGG---RYGNACWCIK----LPDDVPI-----RVPGKCHRK------------------ 91
+  92 ----------------------------------------------IKDGYIVD--------DVNCT-------Y-FCGR----NAYCNE-ECT--KL---KGE-----SG-Y-CQWAS---PYGNACYCYK----LPDHVRT-----KGPGRCR-------------------- 92
+  93 ---------------MKSVSIFFVLFVFFLVVLEAPAKIEAKDKFICVVEYGGD---------VGPT---------FCNPKF-FPTLCRQ-NCRSFK-----GA----KGG--KCVKQQK--HNPIKCFC--------D-------------YCKDD------------------ 93
+  94 ---------------MATESVSTFAIFIILVLVIFEIPEIEAQDSECLKEYGVDDD----GEDVGFR---------FCAPRI-FPTLCYR-RCQKDK-----GA----KGG--KCRWEEVGSRRNVKCLC--------D-------------FCSEDPSNQFISLT--------- 94
+  95 ---------------MAKAIVSIFVVFFIFFLVISDVPEIEAQGNECLKEYGGD---------VGFR---------FCAPRI-FPTFCYT-RCREDK-----GA----KGG--RCPWGQ---GSNVKCLC--------D-------------SCDDTPR---------------- 95
+  96 ---------------MAKAIISIFVVFFIFFLVISDVPEIEAQGNECLKEYGGD---------VGFG---------FCAPRI-FPTICYT-RCRENK-----GA----KGG--RCRWGQ---GSNVKCLC--------D-------------FCDDTPQ---------------- 96
+  97 ---------------MAMKSVSNFAIFLILFLVTYEISEIEAKDKECLKGYI-----------DAPL--------SYCMARI-YPSLCYR-NCRSYK-----GA----KGG--KCD--------GLKCFC--------D-------------FCSDKPF---------------- 97
+  98 ---------------MAMKSVSNFAIFLILFLVTSEISEIEAKDSECLKGYI-----------DAPL--------SYCMARI-YPSLCYR-NCRSYK-----GA----KGG--KCD--------GLKCFC--------D-------------FCSDKPF---------------- 98
+  99 --------------MATKSVLSIFAIFTILVLVIFEIPEIEAHDSECLKEYGGD---------VGFG---------FCAPKI-FPTICYR-NCQKDK-----GA----NGG--KCLWGE---GGNVKCLC--------D-------------FCSKESFNQFISLT--------- 99
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+ 100 ---------------MAMKSVSNFATFLILFLVTSEISEIEAKDSECLKGYI-----------DAPL--------SYCMARI-YPSLCYR-NCRSYK-----GA----KGG--KCD--------GLKCFC--------D-------------FCSDKPF---------------- 100
+ 101 --------------MKSVSVFFVLFIIFLVVLEAPEKIEAKDDKFICVVEYGGD---------VGPT---------FCNPKF-FPTLCRQ-NCRSFK-----GA----KGG--KCVKQPK--HKHIKCFC--------D-------------YCKDD------------------ 101
+ 102 ---------------MAMKSVSNFAIFLILFLVTSEISEIEAKDKECLKGYI-----------DAPL--------SYCMARI-YPSLCYR-NCRSYK-----GA----KGG--KCD--------GLKCFC--------D-------------FCSDKPF---------------- 102
+ 103 -------------MGMAMKSVSNFAIFLILFLVTSEISEIEAKDKECLKGYI-----------DAPL--------SYCMARI-YPSLCYR-NCRSYK-----GA----KGG--KCD--------GLKCFC--------D-------------FCSDKPF---------------- 103
+ 104 ---------------MKFVSVFLVLFIFFLVVLAPEKIEAKDDKFICVVEYGGD---------VGPT---------FCNPKF-FPTLCRQ-NCRSFK-----GA----KGG--KCVKQPK--HKHIKCFC--------D-------------YCKDD------------------ 104
+ 105 ---------------MAMKSVSNFAIFLILFLVTSEISEIEAKDKECLKGYI-----------DAPL--------SYCMARI-YPSLCYR-NCRFYK-----GA----KGG--KCD--------GLKCFC--------D-------------FCSDKPF---------------- 105
+ 106 --------------MATKSVSTFAIFFILVLAIFAETPEIEAYDRKCLKEYGGD---------VGFS---------YCAPRI-FPTFCDQ-NCRKNK-----GA----KGG--VCRWEEN-NAIGVKCLC-------N--------------FCSEEPSDQTLSRI--------- 106
+ 107 ---------------------------MKLFLLLVIFASMLNDGLVNADGYIRG--------SDGCKV--------SCLWG---NDFCDK-VCK--KS---GGS-----YG-Y-C-WT-----WGLACWCEG----LPDNEKW----KYESNTCGSKK----------------- 107
+ 108 ---------------------------MNYLVMISLALLFMTGVESLKDGYIVN--------DINCT-------Y-FCGR----NAYCNE-LCI--KL---KGE-----SG-Y-CQWAS---PYGNSCYCYK----LPDHVRT-----KGPGRCNDR------------------ 108
+ 109 ----------------------------------------------GEDGYIAD--------GDNCT-------Y-ICTF----NNYCH-ALCTDKK-----GD-----SG--ACDWWV---PYGVVCWCED----LPTPVPI-----RGSGKCR-------------------- 109
+ 110 ----------------------------------------------GKEGYPVD--------SRGCKV--------TCFFTG--AGYCDK-ECKLKKA----S------SG-Y-CAW--------PACYCYG----LPDSVPVY---DNASNKC--------------------- 110
+ 111 ----------------------------------------------VRDAYIAQ--------NYNCV-------Y-ACAR----DAYCND-LCT--KN----GA----RSG---LFATFG--PHGDACWCIA----LPNNVPL-----KVQGKCHRK------------------ 111
+ 112 ----------------------------------------------VRDAYIAQ--------NYNCV-------Y-HCGR----DAYCNE-LCS--KN----GAKSRTRGG-Y-CHWFG---PHGDACWCID----LPNNVPI-----KVEGKCHRK------------------ 112
+ 113 ----------------------------------------------VRDAYIAQ--------NYNCV-------Y-TCFK----DAHCND-LCT--KN----GA----SSG-Y-CQWAG---KYGNACWCYA----LPDNVPI-----RIPGKCHRK------------------ 113
+ 114 ----------------------------------------------VRDAYIAQ--------NYNCV-------Y-DCAR----DAYCNE-LCT--KN----GA----KSG--HCEWFG---PHGDACWCID----LPNNVPI-----KVEGKCHRK------------------ 114
+ 115 ----------------------------------------------VRDAYIAQ--------NYNCV-------Y-DCAR----DAYCND-LCT--KN----GA----KSG-Y-CEWFG---PHGDACWCID----LPNNVPI-----KVEGKCHRK------------------ 115
+ 116 ----------------------------------------------KKEGYLVG--------NDGCK-------Y-GCITRP--HQYCVH-ECELKK-----GT-----DG-Y-CAY-------WLACYCYN----MPDWVKTW---SSATNKCK-------------------- 116
+ 117 ----------------------------MNSLLMITACLVLFGTVWAKEGYLVNK-------STGCK-------Y-GCFWLG-KNENCDM-EC---KAKNQGGS-----YG-Y-CYS--------FACWCEG----LPDSTPTY---PLPNKSCSKK------------------ 117
+ 118 ---------------------------MKLFLLLLISASMLIDGLVNADGYIRG--------SNGCKV--------SCLWG---NEGCNK-EC---GA---YGA----SYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGGKK----------------- 118
+ 119 ---------------------------MKLFLLLVFFASMLIDGLVNADGYIRG--------SNGCK--------ISCLWG---NEGCNK-EC---KG---FGA----YYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGGKK----------------- 119
+ 120 ----------------------------MNSLLMITACLAEIGTVWAKEGYLVNK-------STGCK-------Y-GCFWLG-KNENCDK-EC---KAKNQGGS-----YG-Y-CYS--------FACWCEG----LPDSTPTY---PLPNKSCSKK------------------ 120
+ 121 ------------------------------MNSLLIITACLVLFVWAKEGYLVNK-------STGCK-------Y-GCFWLG-KNENCDM-EC---KAKNQGGS-----YG-Y-CYS--------FACWCEG----LPDSTPTY---PLPNKSCSKK------------------ 121
+ 122 ----------------------------MNSLLMIIGCLVLIGTVWTKEGYLVNM-------KTGCK-------Y-GCYELG-DNGYCDR-KC---KA--ESGN-----YG-Y-CYT--------VGCWCEG----LPNSKPTW---PLPGKSCSGK------------------ 122
+ 123 ---------------------------------------------GVRDAYIAD--------DKNCV-------Y-TCGA----NSYCNT-ECT--KN----GAE----SG-Y-CQWFG---KYGNACWCIK----LPDKVPI-----RIPGKCR-------------------- 123
+ 124 -----------------------------------------------KEGYLVN--------STGCK-------Y-NCLILG-ENKNCDM-EC---KAKNQGGS-----YG-Y-CYK--------LACWCEG----LPESTPTY---PIPGKTC--------------------- 124
+ 125 -----------------------------------------------KEGYLVN--------STGCK-------Y-DCFWLG-KNEHCD-LEC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSC--------------------- 125
+ 126 -----------------------------------------------KEGYLVK--------SDGCK-------Y-DCFWLG-ENEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSC--------------------- 126
+ 127 -----------------------------------------------KEGYLVK--------SDGCK-------Y-DCFWLG-KNEHCD-LEC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSC--------------------- 127
+ 128 -----------------------------------------------KEGYLVK--------SDGCK-------Y-DCFWLG-KNEHCDT-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSC--------------------- 128
+ 129 -----------------------------------------------KEGYLVN--------STGCK-------Y-GCFWLG-KNEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FGCWCEG----LPESTPTY---PLPNKTC--------------------- 129
+ 130 -----------------------------------------------KEGYLVN--------STGCK-------Y-GCLLLG-KNEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FGCWCEG----LPESTPTY---PLPNKSC--------------------- 130
+ 131 -----------------------------------------------KEGYLVN--------STGCK-------Y-GCLKLG-ENEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSC--------------------- 131
+ 132 ---------------------------MKLLLLLIVSASMLIESLVNADGYIRK--------RDGCK--------LSCLFG---NEGCNK-EC---KS--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSETNTCG-------------------- 132
+ 133 ---------------------------MKLFLLLVISASMLIDGLVNADGYIRG--------SNGCKV--------SCLLG---NEGCNK-EC---RA---YGA----SYG-Y-C-WT-----WKLACWCQG----LPDDKTW----KSESNTCGGKK----------------- 133
+ 134 ---------------------------MNYLVMISLALLLMIGVESVRDGYIVY--------PHNCV-------Y-HCIP------SCDG-LCK--EN----GAT----SGS--CGYII---KVGIACWCKD----LPENVPIY----DRSYKCYR------------------- 134
+ 135 --------------------------MNYLITISLALLLMTGVASGVRDGYIAD--------AGNCG-------Y-TCVA----NDYCNT-ECT--KN----GAE----SG-Y-CQWFG---RYGNACWCIK----LPDKVPI-----KVPGKCNGR------------------ 135
+ 136 ---------------------------MNYLVMISLALLFMIGVESARDGYIAQ--------PNNCV-------Y-HCIPL---SPGCDK-LCR--EN----GAT----SG--KCSFLA---GSGLACWCVA----LPDNVPI----KIIGQKCTR------------------- 136
+ 137 ----------------------------------------------GRDAYIAQ--------PENCV-------Y-ECAK----SSYCND-LCT--KN----GA----KSG-Y-CQWLG---RWGNACYCID----LPDKVPI-----RIEGKCHFA------------------ 137
+ 138 ---------------------------MKAALLLVIFSLMLIGVLTKKSGYPTD--------HEGCK--------NWCVL----NHSCGI-LC---E-----GYG---GSG-Y-CYFW------KLACWC-------DDIHNWVPTWSRATNKCRAK------------------ 138
+ 139 ---------------------------MNYLVMISLALLFMTGVESKKDGYIVD--------DKNCT--------FFCGR----NAYCND-ECK--K----KGAE----SG-Y-CQWAS---PYGNACYCYK----LPDRVST-----KKKGGCNGR------------------ 139
+ 140 ----------------------------MNYLVMISLALLIAGVDSARDAYIAK--------NDNCV-------Y-ECFQ----DSYCND-LCT--KN----GA----KSG--TCDWIG---TYGDACLCYA----LPDNVPI-----KLSGECHR------------------- 140
+ 141 ---------------------------MNYLVMISFALLLVIGVESVRDGYFVE--------PDNCV--------IYCMPS---SEVCDR-GCK--HN----GAT----SG--TCKEFS---KGGNVCWCKG----L----------------R--------------------- 141
+ 142 ---------------------------MNYLVMISFALLLVIGVESVRDGYFVE--------PDNCLV--------YCMPS---PEICDR-GCK--R----YGAT----SG--FCKEFS---KGENFCWCKG----L----------------R--------------------- 142
+ 143 ---------------------------MNYLVMISFALLLVIGVESVRDGYFVE--------PDNCVV--------HCMPS---SEMCDR-GCK--HN----GAT----SGS--CKAFS---KGGNACWCKG----L----------------R--------------------- 143
+ 144 ---------------------------MNYLVFFSLALLLMTGVESVRDGYIAD--------DKNCA-------Y-FCGR----NAYCDD-ECK--KN----GAE----SG-Y-CQWAG---VYGNACWCYK----LPDKVPI-----RVPGKCNGG------------------ 144
+ 145 ---------------------------MKLLLLLIVSASMLIESLVNADGYIKR--------RDGCKV--------ACLIG---NEGCDK-EC---KA--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSETNTCGGKK----------------- 145
+ 146 ------------------------------------------------DGYIKG--------YKGCK--------ITCVIN---DDYCDT-EC---KA--EGGT-----YG-Y-C-WK-----WGLACWCED----LPDEKRW----KSETNTC--------------------- 146
+ 147 ----------------------------------------------VRDAYIAK--------PHNCV-------Y-ECAR----NEYCND-LCT--K----DGA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RIPGNCH-------------------- 147
+ 148 ---------------------------MNYLVFFSLALLLMTGVESVRDGYIAD--------DKNCA-------Y-FCGR----NAYCDD-ECK--K----KGAE----SG-Y-CQWAG---VYGNACWCYK----LPDKVPI-----RVPGKCNGG------------------ 148
+ 149 ----------------------------------------------VRDGYIAL--------PHNCA-------Y-GCLN----NEYCNN-LCT--K----DGA----KIG-Y-CNIVG---KYGNACWCIQ----LPDNVPI-----RVPGRCHPA------------------ 149
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+ 150 ---------------------------MNYLIVISFALLLMTGVESGRDAYIAK--------KENCT-------Y-FCAL----NPYCND-LCT--KN----GA----KSG-Y-CQWAG---RYGNACWCID----LPDKVPI-----RIPGPCIGR------------------ 150
+ 151 ---------------------------------------------MVRDAYIAQ--------NYNCV-------Y-HCAR----DAYCNE-LCT--KN----GA----KSGS--CPYLG---EHKFACYCKD----LPDNVPI-----RVPGKCH-------------------- 151
+ 152 ---------------------------MNYLIVISFALLLMTSVESGRDAYIAD--------SENCT-------Y-FCGS----NPYCND-LCT--EN----GA----KSG-Y-CQWAG---RYGNACWCID----LPDKVPI-----RIPGPCRGR------------------ 152
+ 153 ----------------------------------MMKFVLFGMIVILFSLMGSIRG----DDDPGNYPTNAYGNKYYCTILG-ENEYCRK-IC---KL---HGVT----YG-Y-CYN--------SRCWCE------KLE-----------DKDVTI------------------ 153
+ 154 ----------------------------------------LIDGLVNADGYIRG--------SNGCK--------ISCLWG---NEGCNK-EC---KG---FGA----YYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGGKK----------------- 154
+ 155 ----------------------------------------------VRDGYIAK--------PENCAH--------HCFPG---SSGCDT-LCK--EN----GGT----GG--HCGFKV---GHGTACWCNA----LPDKVGI----IVDGVKCH-------------------- 155
+ 156 ----------------------------------------------VRDGYIAQ--------PENCV-------Y-HCIP------DCDT-LCK--DN----GGT----GG--HCGFKL---GHGIACWCNA----LPDNVGI----IVDGVKCHK------------------- 156
+ 157 ----------------------------------------------GRDAYIAQ--------PENCV-------Y-ECAK----NSYCND-LCT--KN----GA----KSG-Y-CQWLG---KYGNACWCED----LPDNVPI-----RIPGKCHF------------------- 157
+ 158 ---------------------------MKRMILFISCLLLIDIVVGGREGYPAD--------SKGCK--------ITCFLTA--AGYCNT-ECTLKK-----GS-----SG-Y-CAW--------PACYCYG----LPDSVKIW---TSETNKCGKK------------------ 158
+ 159 ---------------------------MNYLIMFSLALLLVIGVESGRDGYIVD--------SKNCV-------Y-HCYP------PCDG-LCK--KN----GA----KSGS--CGFLV---PSGLACWCND----LPENVPI----KDPSDDCHKR------------------ 159
+ 160 --------------MKLVSVFLVLFIFFLVVLEAPEKIEAKDDKFICVVEYGGD---------VGPT---------FCNPKF-FPTLCRQ-NCRSFK-----GA----KGG--KCVKQPK--HKHIKCFC--------D-------------YCKDD------------------ 160
+ 161 ----------------------------------------------GKEGYPAD--------SKGCKV--------TCFFTG--VGYCDT-ECKLKKA----S------SG-Y-CAW--------PACYCYG----LPDSASVW---DSATNKC--------------------- 161
+ 162 ----------------------------------------------KIDGYPVD--------YWNCK--------RICWYN---NKYCND-LCKGLKA----D------SG-Y-CWGW------TLSCYCQG----LPDNARI-----KRSGRCRA------------------- 162
+ 163 ---------------------------MKLLLLLIVSASMLIESLVNADGYIRK--------RDGCKV--------SCLFG---NEGCDK-EC---KA--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSETNTCG-------------------- 163
+ 164 ---------------------------MKLLLLLIVSASMLIESLVNADGYIRK--------RDGCKV--------SCLFG---NEGCDK-EC---KS--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDEKTW----KSETNTCG-------------------- 164
+ 165 ----------------------------------------------ARDGYPVD--------EKGCK--------LSCLIN---DKWCNS-AC---HS--RGGK-----YG-Y-CYTG------GLACYCEA----VPDNVKVW---TYETNTC--------------------- 165
+ 166 -----------------------------------------------KDGYPVD--------SKGCK--------LSCVA----NNYCDN-QCKMKKA---SG-------G--HCYA--------MSCYCEG----LPENAKVS---DSATNIC--------------------- 166
+ 167 ---------------------------MNYLVMISFALLLMTGVESVRDAYIAK--------PENCV-------Y-HCAT----NEGCNK-LCT--DN----GAE----SG-Y-CQWGG---KYGNACWCIK----LPDDVPI-----RVPGKCHR------------------- 167
+ 168 ----------------------------MNSLLMITACLFLIGTVWAKEGYLVNK-------STGCK-------Y-GCLKLG-ENEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCGKK------------------ 168
+ 169 ----------------------------MNSLLIITACFALVGTVWAKEGYLVKK-------SDGCK-------Y-DCFWLG-KNEHCDT-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCGKK------------------ 169
+ 170 ----------------------------MNSLLIITACLFLIGTVWAKEGYLVNK-------STGCK-------Y-GCLKLG-ENEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCSRK------------------ 170
+ 171 ---------------------------MNYLVMISFALLLMKGVESVRDAYIAK--------PENCV-------Y-HCAG----NEGCNK-LCT--DN----GAE----SG-Y-CQWGG---RYGNACWCIK----LPDDVPI-----RVPGKCHR------------------- 171
+ 172 ---------------------------MNYMVIISLALLVMTGVESVKDGYIAD--------DRNCP-------Y-FCGR----NAYCDG-ECK--KN----RAE----SG-Y-CQWAS---KYGNACWCYK----LPDDARI-----MKPGRCNGG------------------ 172
+ 173 ---------------------------MNYLVMVSFALLLMTGVESVRDGYIAL--------PHNCA-------Y-GCLL----NEFCND-LCT--KN----GA----KIG-Y-CNIQG---KYGNACWCIE----LPDNVPI-----RVPGRCHPS------------------ 173
+ 174 --------------------------------------LLMTGVESGRDAYIAK--------NYNCV-------Y-HCFR----DDYCNG-LCT--EN----GA----DSG-Y-CYLAG---KYGNACWCIN----LPDDKPI-----RIPGKCHRR------------------ 174
+ 175 ---------------------------MNYLVFFSLALLLMTGVGSVRDGYIAD--------DKNCP-------Y-FCGR----NAYCDD-ECK--KN----GAE----SG-Y-CQWAG---VYGNACWCYK----LPDKVPI-----RVPGKCNGG------------------ 175
+ 176 ---------------------------MNYLVMISFAFLLMTGVESVRDAYIAQ--------NYNCV-------Y-HCAR----DAYCNE-LCT--KN----GA----KSGS--CPYLG---EHKFACYCKD----LPDNVPI-----RVPGKCHRR------------------ 176
+ 177 ---------------------------MNYLVMISFALLLMTGVESVRDAYIAK--------PHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCKE----LPDNVPI-----RVPGKCHR------------------- 177
+ 178 ---------------------------MNYLVFFSLALLVMTGVESVRDGYIAD--------DKNCA-------Y-FCGR----NAYCDD-ECK--KN----GAE----SG-Y-CQWAG---VYGNACWCYK----LPDKVPI-----RVPGKCNGG------------------ 178
+ 179 ---------------------------MKLSLLLVISASMLIDGLVNADGYIRG--------SNGCKV--------SCLWG---NDGCNK-EC---RA---YGA----SYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGGKK----------------- 179
+ 180 ---------------------------MKLSLLLVISASMLIDGLVNADGYIRG--------SNGCK--------ISCLWG---NEGCNK-EC---KG---FGA----YYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGGKK----------------- 180
+ 181 ----------------------------MNSLLMITACLVLFGTVWSEKGYLVH-------EDTGCR-------Y-KCTFSG-ENSYCDK-EC---KS--QGGD-----SG--ICQS--------KACYCQG----LPEDTKTW---PLIGKLCGRK------------------ 181
+ 182 ----------------------------------------------VRDAYIAK--------PHNCV-------Y-ECAR----NEYCNN-LCT--KN----GA----KSG-Y-CQWSG---KYGNGCWCIE----LPDNVPI-----RVPGKCH-------------------- 182
+ 183 MSEYISKVSNKQRKMKFVSVFLVLFIFFLVVLEAPEKIEAKDDKFICVVEYGGD---------VGPT---------FCNPKF-FPTLCRQ-NCRSFK-----GA----KGG--KCVKQPK--HKHIKCFC--------D-------------YCKDD------------------ 183
+ 184 --------------MAKMSALSIFAIFIILVLVIFEIPEIEAHDSECLKEYGGD---------VGFG---------FCAPKI-FPTICYR-NCQKDK-----GA----NGG--KCLWGE---GGKVKCLC--------D-------------FCSNESFNQFISLT--------- 184
+ 185 ------------------------------------------------DGYILN--------SKGCKV--------SCVVS---IVYCNS-MC---KSS--GGS-----YG-Y-C-WT-----WGLACWCEG----LPNSKRW----TSSKNKCN-------------------- 185
+ 186 ------------------------------------------------DGYIKK--------SKGCKV--------SCVIN---NVYCNS-MC---KS--LGGS-----YG-Y-C-WT-----YGLACWCEG----LPNAKRW----KYETKTCK-------------------- 186
+ 187 ------------------------------------------------DGYILM--------RNGCK--------IPCLFG---NDGCNK-EC---KA--YGGS-----YG-Y-C-WT-----YGLACACEG----QPEDKKHL---NYHKKTC--------------------- 187
+ 188 ----------------------------------------------VRDAYIAK--------PENCV-------Y-HCAG----NEGCNK-LCT--DN----GAE----SG-Y-CQWGG---RYGNACWCIK----LPDDVPI-----RVPGKCH-------------------- 188
+ 189 ----------------------------MNSLLIITVCLFLIGTVWAKEGYLVNK-------STGCK-------Y-DCFWLG-KNEHCD-LEC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCGKK------------------ 189
+ 190 ----------------------------MNSLLMITACFALVGTVWAKEGYLVKK-------SDGCK-------Y-DCFWLG-KNEHCD-LEC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCGKK------------------ 190
+ 191 ----------------------------MNSLLIITACLFLIGTVWAKEGYLVNK-------STGCK-------Y-GCLKLG-ENEGCDK-EC---KAENQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCSRK------------------ 191
+ 192 ----------------------------MNSLLIITACFALVGTVWAKEGYLVNK-------STGCK-------Y-GCLKLG-ENEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCSRK------------------ 192
+ 193 ----------------------------MNSLLMITACLFLIGTVWAREGYLVNK-------STGCK-------Y-GCLKLG-ENEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCSRK------------------ 193
+ 194 ----------------------------MNSLLMITACLFLIGTVWAKEGYLVNK-------STACK-------Y-GCLKLG-ENEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCSRK------------------ 194
+ 195 ----------------------------MNSLLMITACFALVGTVWAKEGYLVKK-------SDGCK-------Y-DCFWLG-ENEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FACWCEG----LPESTPTY---PLPNKSCGKK------------------ 195
+ 196 -------------MGMAMKSVSNFAIFLILFLVTSEISEIEAKDKECLKGYI-----------DAPL--------SYCMARI-YPSLCYR-NCRFYK-----GA----KGG--KCD--------GLKCFC--------D-------------FCSDKPF---------------- 196
+ 197 ---------------MAKAIVSIFVVFFIFFLVISDVPEIEAQGNECLKEYGGD---------VGFG---------FCAPRI-FPTICYT-RCRENK-----GA----KGG--RCRWGQ---GSNVKCLC--------D-------------FCDDTPQ---------------- 197
+ 198 ---------------MATKSVSTFAIFFILVLAIFETPEIEAYDRKCLKEYGGD---------VGFS---------YCAPRI-FPTFCDQ-NCRKNK-----GA----KGG--VCRWEEN-NAIGVKCLC-------N--------------FCSEEPSDQTLSRI--------- 198
+ 199 ------------------------------------------------DGYIKR--------HDGCKV--------TCLIN---DNYCDT-EC---KR--EGGS-----YG-Y-CYSV------GFACWCEG----LPDDKAW----KSETNTCD-------------------- 199
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+ 200 ----------------------------------------------VRDGYIAD--------DKNCA-------Y-FCGR----NAYCDE-EC---II---NGAE----SG-Y-CQQAG---VYGNACWCYK----LPDKVPI-----RVSGECQQ------------------- 200
+ 201 ---------------------------MNYLVFFSLALLLMTGVESVKDGYIAD--------DRNCP-------Y-FCGR----NAYCDG-ECK--KN----RAE----SG-Y-CQWAS---KYGNACWCYK----LPDDARI-----MKPGRCNGG------------------ 201
+ 202 ----------------------------------------------GRDGYVVKN-------GTNCK-------Y-SCEIGS-EYEYCG-PLCK-RKN---AKT------G-Y-CYA--------FACWCID----VPDDVKLY---GDDGTYCSS------------------- 202
+ 203 ----------------------------------------------VRDAYIAK--------PHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCH-------------------- 203
+ 204 ---------------------------MNYLVMISFALLLMTGVESVRDAYIAK--------PHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCHR------------------- 204
+ 205 ----------------------------------------------VRDGYIAQ--------PENCV-------Y-HCFPG---SSGCDT-LCK--E----KGGT----SG--HCGFKV---GHGLACWCNA----LPDNVGI----IVEGEKCHS------------------- 205
+ 206 -----------------------------------------------KEGYLMD--------HEGCK--------LSCFIRP--SGYCGR-ECGIKK-----GS-----SG-Y-CAW--------PACYCYG----LPNWVKVW---DRATNKC--------------------- 206
+ 207 ----------------------------MSSLMISTAMKGKAPYRQVRDGYIAQ--------PHNCA-------Y-HCLKI---SSGCDT-LCK--EN----GAT----SG--HCGHKS---GHGSACWCKD----LPDKVGI----IVHGEKCHR------------------- 207
+ 208 ---------------------------MKGMILFISCLLLIDIVVGGKEGYLMD--------HEGCK--------LSCFIRP--SGYCGR-ECTLKK-----GS-----SG-Y-CAW--------PACYCYG----LPNWVKVW---DRATNKCGKK------------------ 208
+ 209 ---------------------------MKGMILFISCLLLIGIVVECKEGYLMD--------HEGCK--------LSCFIRP--SGYCGS-ECKIKK-----GS-----SG-Y-CAW--------PACYCYG----LPNWVKVW---DRATNKCGKK------------------ 209
+ 210 ----------------------------------------------KKDGYPVE--------ADNCA--------FVCFGYD--NAYCDK-LCGDKKA----D------SG-Y-CYWV------HILCYCYG----LPDNEPT-----KTNGKC--------------------- 210
+ 211 ----------------------------------------------GRDAYIAD--------SENCT-------Y-TCAL----NPYCND-LCT--KN----GA----KSG-Y-CQWAG---RYGNACWCID----LPDKVPI-----RISGSCR-------------------- 211
+ 212 ---------------------------MNYLVMISFALLLMKGVESVRDAYIAK--------PENCV-------Y-ECGIT----QDCNK-LCT--EN----GAE----SG-Y-CQWGG---KYGNACWCIK----LPDSVPI-----RVPGKCQR------------------- 212
+ 213 --------------MKFVSVFLVLFIFFLVVLEAPEKIEAKDDKFICVVEYGGD---------VGPT---------FCNPKF-FPTLCRQ-NCRSFK-----GA----KGG--KCVKQPK--HKHIKCFC--------D-------------YCKDD------------------ 213
+ 214 ------------------------------------------------DGYIRG--------GDGCKV--------SCVID---HVFCDN-EC---KAA--GGS-----YG-Y-C-WG-----WGLACWCEG----LPADREW----KYETNTCG-------------------- 214
+ 215 ---------------------------------MVVVCLLTAGTEGKKDGYPVE--------YDNCA-------Y-ICWNYD--NAYCDK-LCKDKKA----D------SG-Y-CYWV------HILCYCYG----LPDSEPT-----KTNGKCKSGKK---------------- 215
+ 216 ----------------------------------------------ARDGYIVH-------DGTNCK-------Y-SCEFGS-EYKYCG-PLCE-KKK---AKT------G-Y-CYL--------FACWCIE----VPDEVRVW---GEDGFMCWS------------------- 216
+ 217 ------------------------------------------------DGYIRK--------RDGCKV--------SCLFG---NEGCDK-EC---KA--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSETNTCG-------------------- 217
+ 218 ----------------------------------------------VRDAYIAQ--------NYNCV-------Y-FCMK----DDYCND-LCT--KN----GA----SSG-Y-CQWAG---KYGNACWCYA----LPDNVPI-----RIPGKCHS------------------- 218
+ 219 ------------------------------------------------DGYIRR--------RDGCKV--------SCLFG---NEGCDK-EC---KA--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSETNTCG-------------------- 219
+ 220 ----------------------------------------------GRDAYIAD--------SENCT-------Y-FCGS----NPYCND-VCT--EN----GA----KSG-Y-CQWAG---RYGNACYCID----LPASERI-----KEPGKCG-------------------- 220
+ 221 -------------MAMAKKSVSSFTLIFILVLVIFEVPEIKAQDSECLKEYGGD---------VGFP---------FCAPRI-FPTICYT-RCRENK-----GA----KGG--RCIWGE---GTNVKCLC--------D-------------YCNDSPFDQILRGGI-------- 221
+ 222 ----------------------------------------------GKEGYLMD--------HEGCK--------LSCFIRP--SGYCGR-ECTLKK-----GS-----SG-Y-CAW--------PACYCYG----LPNWVKVW---DRATNKC--------------------- 222
+ 223 -----------------------------------------------KEGYLMD--------HEGCK--------LSCFIRP--SGYCGS-ECKIKK-----GS-----SG-Y-CAW--------PACYCYG----LPNWVKVW---DRATNKC--------------------- 223
+ 224 --------------------------------MISFALLLMTGVESVRDAYIAK--------PENCV-------Y-HCAT----NEGCNK-LCT--DN----GAE----SG-Y-CQWGG---RYGNACWCIK----LPDRVPI-----RVPGKCHR------------------- 224
+ 225 ----------------------------------------------GREGYPAD--------SKGCK--------ITCFLTA--AGYCNT-ECTLKK-----GS-----SG-Y-CAW--------PACYCYG----LPESVKIW---TSETNKC--------------------- 225
+ 226 ----------------------------MNSLLMITACLVLFGTVWAKEGYLVNK-------STGCK-------Y-GCFWLG-KNEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FGCWCEG----LPESTPTY---PLPNKTCSKK------------------ 226
+ 227 ----------------------------------------------KKDGYPVD--------SGNCK-------Y-ECLK----DDYCND-LCLERKA----DK------G-Y-CYWG------KVSCYCYG----LPDNSPT-----KTSGKCNPA------------------ 227
+ 228 ----------------------------MNSLLMITACLFLIGTVWAKEGYLVNK-------STGCK-------Y-GCLLLG-KNEGCDK-EC---KAKNQGGS-----YG-Y-CYA--------FGCWCEG----LPESTPTY---PLPNKSCSKK------------------ 228
+ 229 ---------------------------------LVVVCLLTAGTEGKKDGYPVE--------YDNCA-------Y-ICWNYD--NAYCDK-LCKDKKA----D------SG-Y-CYWV------HILCYCYG----LPDSEPT-----KTNGKCKSGKK---------------- 229
+ 230 ----------------------------------------------VRDAYIAK--------NYNCV-------Y-ECFR----DSYCND-LCT--KN----GA----SSG-Y-CQWAG---KYGNACWCYA----LPDNVPI-----RVPGKCH-------------------- 230
+ 231 -----------------------------------------------MDGYIRG--------SNGCK--------ISCLWG---NEGCNK-EC---KG---FGA----YYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGRKK----------------- 231
+ 232 -----------------------------------------------MDGYIRG--------SNGCKV--------SCLWG---NEGCNK-EC---RA---YGA----SYG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSESNTCGRKK----------------- 232
+ 233 --------------------------------MISFALLLMTGVESVRDAYIAK--------PHNCV-------Y-ECAR----NEYCND-LCT--KN----GA----KSG-Y-CQWVG---KYGNGCWCIE----LPDNVPI-----RVPGKCHR------------------- 233
+ 234 -------------------------------------------DSECLKEYGGD---------VGFG---------FCAPRI-YPSFCVQ-RCRADK-----GA----LSG--KCIWGQ---GSNVKCLC-------N--------------FCRHEP----------------- 234
+ 235 ----------------------------------------------GRDGYIVD--------SKNCV-------Y-HCYP------PCDG-LCK--KN----GA----KSGS--CGFLV---PSGLACWCND----LPENVPI----KDPSDDCHK------------------- 235
+ 236 ---------------------------MKGMILFISCLLLIGIVVECKEGYLMD--------HEGCK--------LSCFIRP--SGYCGR-ECGIKK-----GS-----SG-Y-CAW--------PACYCYG----LPNWVKVW---DRATNKCGKK------------------ 236
+ 237 ---------------------------MNYLVMISLALLLMTGVESVRDGYIVD--------SKNCV-------Y-HCVP------PCDG-LCK--KN----GA----KSGS--CGFLI---PSGLACWCVA----LPDNVPI----KDPSYKCHSR------------------ 237
+ 238 ---------------------------MNYLVMISLALLFVTGVESVKDGYIVD--------DVNCT-------Y-FCGR----NAYCNE-ECT--KL---KGE-----SG-Y-CQWAS---PYGNACYCYK----LPDHVRT-----KGPGRCHGR------------------ 238
+ 239 ---------------------------MNYLVMISLALLLMIGVESKRDGYIVY--------PNNCV-------Y-HCVP------PCDG-LCK--KN---GGS-----SGS--CSFLV---PSGLACWCKD----LPDNVPI----KDTSRKCTR------------------- 239
+ 240 ------------------------------------------------DGYIRK--------KDGCKV--------SCIIG---NEGCRK-EC---VA--HGGS-----FG-Y-C-WT-----WGLACWCEN----LPDAVTW----KSSTNTCG-------------------- 240
+ 241 ------------------------------------------------DGYIRK--------RDGCK--------LSCLFG---NEGCNK-EC---KS--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDEKTW----KSETNTCG-------------------- 241
+ 242 ------------------------------------------------DGYIKR--------RDGCKV--------ACLIG---NEGCDK-EC---KA--YGGS-----YG-Y-C-WT-----WGLACWCEG----LPDDKTW----KSETNTCG-------------------- 242
+ 243 -------------------------------------------DSECLKEYGGD---------VGFP---------FCAPRI-FPTICYT-RCRENK-----GA----KGG--RCIWGE---GTNVKCLC--------D-------------YCNDSPFDQ-------------- 243
+ 244 ----------------------------------------------VKDGYIVD--------DRNCT-------Y-FCGR----NAYCNE-ECT--KL---KGE-----SG-Y-CQWAS---PYGNACYCYK----VPDHVRT-----KGPGRCN-------------------- 244
+ 245 ----------------------------------------------GRDAYIAQ--------PENCV-------Y-ECAQ----NSYCND-LCT--K----DGAT----SG-Y-CQWLG---KYGNACWCKD----LPDNVPI-----RIPGKCHF------------------- 245
+ 246 ---------------------------------------------GVRDAYIAD--------DKNCV-------Y-TCGS----NSYCNT-ECT--K----DGAE----SG-Y-CQWLG---KYGNACWCIK----LPDKVPI-----RIPGKCR-------------------- 246
+ 247 -------------------------------------MKFLLLFLVVLPIMGVLG------KKNGYAVDSS-GKAPECLL----SNYCNN-ECT--K----VHYA---DKG-YCCL---------LSCYCFGLNDDKKVLEIS----DTRKSYCDTTIIN--------------- 247
+ 248 ---------------------------MNYLVMISLALLLMIGVESKRDGYIVY--------PNNCV-------Y-HCIP------PCDG-LCK--KN---GGS-----SGS--CSFLV---PSGLACWCKD----LPDNVPI----KDTSRKCTR------------------- 248
+ 249 ----------------------------------------------LKDGYIVD--------DRNCT-------Y-FCGT----NAYCNE-EC--VKL---KGE-----SG-Y-CQWVG---RYGNACWCYK----LPDHVRT-----VQAGRCRS------------------- 249
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+ 250 ----------------------------------------------ARDAYIAD--------DRNCV-------Y-TCAL----NPYCDS-ECK--KN----GA-----DGSY-CQWLG---RFGNACWCKN----LPDDVPIR---KIPGEECR-------------------- 250
+ 251 -------------------------------------MKFLLLFLVVLPIMGVLG------KKNGYAVDSS-GKAPECLL----SNYCYN-ECT--K----VHYA---DKG-YCCL---------LSCYCFGLNDDKKVLEIS----DTRKSYCDTPIIN--------------- 251
+ 252 ---------------------------MNHLVMISLALLLLLGVESVRDAYIAK--------NYNCV-------Y-ECFR----DAYCNE-LCT--KN----GA----SSG-Y-CQWAG---KYGNACWCYA----LPDNVPI-----RVPGKCHRK------------------ 252
+ 253 ----------------------------------------------VRDGYIAD--------DKDCA-------Y-FCGR----NAYCDE-EC---K----KGAE----SG--KCWYAG---QYGNACWCYK----LPDWVPIK---QKVSGKCN-------------------- 253
+ 254 -------------------------------------MKFLLLFLVVLPIMGVFG------KKNGYAVDSS-GKAPECLL----SNYCNN-ECT--K----VHYA---DKG-YCCL---------LSCYCFGLNDDKKVLEIS----DTRKSYCDTTIIN--------------- 254
+ 255 ------------------------------------------AEIKVRDGYIVY--------PNNCV-------Y-HCGL----DPYCND-LC---T-------------G---------------A------------------------------------------------ 255
+ 256 ----------------------------------------------ARDAYIAK--------PHNCV-------Y-ECYNP--KGSYCND-LCT--EN----GAE----SG-Y-CQILG---KYGNACWCIQ----LPDNVPI-----RIPGKCH-------------------- 256
+ 257 ----------------------------------------------VRDAYIAQ--------NYNCV-------Y-TCFK----NDYCND-ICT--KN----GA------G----------------Y-C--------------------------------------------- 257
+ 258 ----------------------------------------------LKDGYIVD--------DKNCT--------FFCGR----NAYCND-ECK--KK---GGE-----SG-Y-CQWAS---PYGNACWCYK----LPDRVSI-----KEKGRCN-------------------- 258
+ 259 ----------------------------------------------LKDGYIID--------DLNCT--------FFCGR----NAYCDD-ECK--KK---GGE-----SG-Y-CQWAS---PYGNACWCYK----LPDRVSI-----KEKGRCN-------------------- 259
+ 260 ---------------------------------------------GVRDAYIAD--------DKNCV-------Y-TCGS----NSYCNT-ECT--KN----GAE----SG-Y-CQWLG---KYGNACWCIK----LPDKVPI-----RIPGKCR-------------------- 260
+ 261 ---------------------------------------------GVRDGYIAQ--------PHNCV-------Y-HCFPG---SGGCDT-LCK--EN----GAT----QGS-SCFILG----RGTACWCKD----LPDRVGV----IVDGEKCH-------------------- 261
+ 262 ----------------------------------------------GRDGYIAQ--------PENCV-------Y-HCFPG---SSGCDT-LCK--E----KGAT----SG--HCGFLP---GSGVACWCDN----LPNKVPIV----VGGEKCH-------------------- 262
+ 263 ----------------------------------------------VRDAYIAK--------PENCV-------Y-ECAT----NEYCNK-LCT--DN----GAE----SG-Y-CQWVG---RYGNAC-CIK----LPDRVPI-----RVWGKCHG------------------- 263
+ 264 ----------------------------------------------GRDAYIAQ--------PENCV-------Y-ECAK----NSYCND-LCT--KN----GA----KSG-Y-CQWLG---RWGNACYCID----LPDKVPI-----RIEGKCHF------------------- 264
+ 265 ---------------------------MKLLLLLVISASMLLECLVNADGYIRK--------KDGCKV--------SCIIG---NEGCRK-EC---VA--HGGS-----FG-Y-C-WT-----WGLACWCEN----LPDAVTW----KSSTNTCGRKK----------------- 265
+ 266 ----------------------------------------------ERDGYIVQ--------LHNCV-------Y-HCGL----NPYCNG-LCT--KN----GAT----SGSY-CQWMT---KWGNACYCYALPDKVPIKW--------LDPKCY-------------------- 266
+ 267 ----------------------------------------------GRDAYIAQ--------PENCV-------Y-ECAQ----NSYCND-LCT--KN----GAT----SG-Y-CQWLG---KYGNACWCKD----LPDNVPI-----RIPGKCHF------------------- 267
+ 268 ----------------------------------------------VRDAYIAK--------NYNCV-------Y-ECFR----DAYCNE-LCT--KN----GA----SSG-Y-CQWAG---KYGNACWCYA----LPDNVPI-----RVPGKCR-------------------- 268
+ 269 -----------------------MLLVNQSHQGFNKEHTSKMVSAIVLYVLLAAAAHSAFAKKNGYAVDSS-GKAPECLL----SNYCNN-QCT--K----VHYA---DKG-YCCL---------LSCYCFGLNDDKKVLEIS----DTRKSYCDTTIIN--------------- 269
+                                                                                  *         *    *                 *                                                                
+     ------------------------------------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+
+Average coupling energy(average Deta_DetaG)
+' 'data not available  '-':LOW(<90% percentile)  'M':moderate(90% percentile AvgDeta_DetaG:131.372KT)  'H':high(95% percentile AvgDeta_DetaG:132.474KT)  'E':extreme(99% percentile AvgDeta_DetaG:133.599KT)
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+                       EHH   HM HM-H-----EH-M----MH---------       M----       --M HM-- --MM ME H -HM--- -----   --   - H---   --MM- - --    --------   --HM-M H-E-H
+
+Statistical coupling energy estimation (Deta_DetaG)
+Coupling energy  '-':low(<90% percentile)  'm':moderate(90% percentile Deta_DetaG:311.874KT)  'h':high(95% percentile Deta_DetaG:443.853KT)  'e':extreme(99% percentile Deta_DetaG:571.324KT)
+Deta_DetaG(min):2.49024KT)  Deta_DetaG(max):644.415KT)
+Site 18  ->K(Avg 133.776KT 'E')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------K-----------------------------m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhhh------mem--------------h---------------------
+Site 19  ->S(Avg 132.963KT 'H')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -------------------S----------------------------m-em-------------m-----------e---------e----e---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+Site 20  ->V(Avg 132.686KT 'H')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------V---------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+Site 24  ->A(Avg 133.44KT 'H')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------A-----------------------m-em-------------m-----------e---------e----e---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+Site 25  ->I(Avg 132.445KT 'M')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -------------------------I----------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+Site 27  ->M(Avg 97.2161KT 'LOW')  ->F(Avg 132.497KT 'H')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ---------------------------M----------------------h--------------------------m---------m----m---m-----m-------h---m------------m-m-------m---------------m---------------------
+     ---------------------------F--------------------m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhhh------mem--------------h---------------------
+Site 28  ->N(Avg 114.785KT 'LOW')  ->I(Avg 131.931KT 'M')  ->K(Avg 119.957KT 'LOW')  ->M(Avg 126.5KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ----------------------------N---------------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     ----------------------------I-------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     ----------------------------K-------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h------------hmh------mhm--------------h---------------------
+     ----------------------------M-------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 29  ->N(Avg 127.132KT 'LOW')  ->L(Avg 117.554KT 'LOW')  ->Y(Avg 115.807KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -----------------------------N------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -----------------------------L------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-----------mhmh------mh---------------m---------------------
+     -----------------------------Y--------------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+Site 30  ->L(Avg 106.664KT 'LOW')  ->F(Avg 128.158KT 'LOW')  ->S(Avg 125.707KT 'LOW')  ->V(Avg 133.343KT 'H')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------L-------------------h--------------------------h---------h----h---m-----m-------h-m-h------------h-h-------h---------------m---------------------
+     ------------------------------F-----------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+     ------------------------------S-----------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------V-----------------m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhhh------mem--------------h---------------------
+Site 31  ->L(Avg 106.248KT 'LOW')  ->V(Avg 115.34KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -------------------------------L----------------m-m--------------m-----------h---------h----h---m-----m-------h-m-m------------mmm------mh---------------m---------------------
+     -------------------------------V------------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+Site 32  ->L(Avg 110.091KT 'LOW')  ->M(Avg 120.87KT 'LOW')  ->F(Avg 128.727KT 'LOW')  ->V(Avg 129.506KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------L---------------m-h--------------------------h---------h----h---m-----m-------h---h-m----------hmh------mmm--------------m---------------------
+     --------------------------------M-----------------e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     --------------------------------F---------------m-e--------------m-----------e---------e----e---m-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+     --------------------------------V---------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+Site 33  ->I(Avg 114.756KT 'LOW')  ->L(Avg 121.191KT 'LOW')  ->M(Avg 128.635KT 'LOW')  ->F(Avg 125.124KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ---------------------------------I--------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-----------mhmh------mh---------------h---------------------
+     ---------------------------------L----------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ---------------------------------M--------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ---------------------------------F--------------m-em-------------m-----------h---------h----h---m-----h-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 34  ->I(Avg 119.876KT 'LOW')  ->S(Avg 110.685KT 'LOW')  ->V(Avg 130.237KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ----------------------------------I-------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m----------hmh------mhm--------------h---------------------
+     ----------------------------------S---------------h--------------m-----------h---------h----h---m-----m-------h-m-h-----------mhmh------mh---------------h---------------------
+     ----------------------------------V-------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+Site 35  ->E(Avg 130.912KT 'LOW')  ->I(Avg 125.426KT 'LOW')  ->L(Avg 122.708KT 'LOW')  ->F(Avg 124.767KT 'LOW')  ->T(Avg 127.471KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -----------------------------------E------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     -----------------------------------I------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -----------------------------------L------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -----------------------------------F------------m-e--------------m-----------h---------h----h---h-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -----------------------------------T------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 36  ->A(Avg 104.556KT 'LOW')  ->I(Avg 133.825KT 'E')  ->K(Avg 134.154KT 'E')  ->S(Avg 125.043KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------A-------------h--------------------------h---------h----h---m-----m-------h-m-h-m----------h-h-------h---------------m---------------------
+     ------------------------------------I-----------m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhme------mem--------------h---------------------
+     ------------------------------------K-----------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     ------------------------------------S-----------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 37  ->A(Avg 123.207KT 'LOW')  ->C(Avg 126.075KT 'LOW')  ->L(Avg 110.424KT 'LOW')  ->P(Avg 132.981KT 'H')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -------------------------------------A------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -------------------------------------C----------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -------------------------------------L------------h--------------------------h---------h----h---m-----m-------h-m-h------------hmh-------h---------------h---------------------
+     -------------------------------------P----------m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhhh------mem--------------h---------------------
+Site 38  ->E(Avg 129.333KT 'LOW')  ->L(Avg 99.6604KT 'LOW')  ->S(Avg 123.709KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------E---------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------me---------------h---------------------
+     --------------------------------------L-----------h--------------------------h---------h----h---m-----m-------h-m-m------------m-m-------m---------------m---------------------
+     --------------------------------------S-----------e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 39  ->A(Avg 132.367KT 'M')  ->I(Avg 130.753KT 'LOW')  ->L(Avg 111.383KT 'LOW')  ->M(Avg 122.126KT 'LOW')  ->F(Avg 128.099KT 'LOW')  ->V(Avg 130.163KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ---------------------------------------A--------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     ---------------------------------------I--------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     ---------------------------------------L----------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     ---------------------------------------M----------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ---------------------------------------F--------m-em-------------m-----------h---------h----h---m-----h-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ---------------------------------------V--------m-em-------------m-----------e---------e----e---m-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+Site 40  ->E(Avg 130.931KT 'LOW')  ->I(Avg 127.871KT 'LOW')  ->L(Avg 111.69KT 'LOW')  ->M(Avg 114.922KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ----------------------------------------E-------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ----------------------------------------I-------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ----------------------------------------L-------m-h--------------------------h---------h----h---m-----m-------h---h-m----------h-h------mhm--------------m---------------------
+     ----------------------------------------M---------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+Site 41  ->A(Avg 128.082KT 'LOW')  ->G(Avg 128.938KT 'LOW')  ->I(Avg 113.386KT 'LOW')  ->T(Avg 117.704KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -----------------------------------------A------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+     -----------------------------------------G------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -----------------------------------------I--------h--------------------------h---------h----h---m-----m-------h-m-h-m----------h-h------mhm--------------h---------------------
+     -----------------------------------------T--------e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+Site 42  ->D(Avg 129.084KT 'LOW')  ->E(Avg 128.132KT 'LOW')  ->G(Avg 101.567KT 'LOW')  ->M(Avg 131.34KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------D-----m-em-------------m-----------h---------h----h---h-----m-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ------------------------------------------E-----m-e--------------m-----------h---------h----h---m-----m-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------G-------h--------------------------h---------h----h---m-----m-------h-m-m-m----------h-h-------m---------------m---------------------
+     ------------------------------------------M-----m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhmh------mem--------------h---------------------
+Site 43  ->D(Avg 131.141KT 'LOW')  ->G(Avg 124.836KT 'LOW')  ->T(Avg 125.999KT 'LOW')  ->V(Avg 104.962KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -------------------------------------------D----m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     -------------------------------------------G----m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -------------------------------------------T----m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -------------------------------------------V------h--------------------------h---------h----h---m-----m-------h-m-h------------hmh------mh---------------m---------------------
+Site 44  ->N(Avg 129.177KT 'LOW')  ->E(Avg 111.594KT 'LOW')  ->L(Avg 120.832KT 'LOW')  ->S(Avg 132.321KT 'M')  ->V(Avg 118.149KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------N---m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhmh------mem--------------h---------------------
+     --------------------------------------------E-----h--------------------------h---------h----h---m-----m-------h-m-h------------hmh------mh---------------h---------------------
+     --------------------------------------------L---m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------S---m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhmh------mem--------------h---------------------
+     --------------------------------------------V---m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m----------hmh------mhm--------------h---------------------
+Site 45  ->E(Avg 124.254KT 'LOW')  ->G(Avg 128.558KT 'LOW')  ->I(Avg 133.43KT 'H')  ->S(Avg 105.22KT 'LOW')  ->W(Avg 127.088KT 'LOW')  ->V(Avg 121.054KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ---------------------------------------------E--m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ---------------------------------------------G--m-em-------------m-----------e---------e----e---m-----h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     ---------------------------------------------I--m-em-------------m-----------e---------e----e---m-----h-------e-m-h-m---------mhmh------mem--------------h---------------------
+     ---------------------------------------------S----h--------------------------h---------h----h---m-----m-------h-m-h-----------mh-h-------h---------------h---------------------
+     ---------------------------------------------W--m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ---------------------------------------------V--m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 46  ->A(Avg 122.711KT 'LOW')  ->N(Avg 122.485KT 'LOW')  ->C(Avg 122.065KT 'LOW')  ->G(Avg 122.241KT 'LOW')  ->K(Avg 130.316KT 'LOW')  ->V(Avg 88.6246KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ----------------------------------------------A-m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ----------------------------------------------N---h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ----------------------------------------------C-m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+     ----------------------------------------------G-m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ----------------------------------------------K-m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     ----------------------------------------------V---h--------------------------m---------m----m---m-----m-------m---m------------m-m-------m---------------m---------------------
+Site 47  ->A(Avg 122.575KT 'LOW')  ->R(Avg 82.519KT 'LOW')  ->L(Avg 126.778KT 'LOW')  ->K(Avg 97.8763KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -----------------------------------------------A--h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     -----------------------------------------------R--m--------------------------m---------m----m---m-------------m---m------------m-m-------m---------------m---------------------
+     -----------------------------------------------Lm-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     -----------------------------------------------K--hm-------------------------m---------m----m---------m-------m---m-m----------mmm-------m---------------m---------------------
+Site 48  ->D(Avg 40.6265KT 'LOW')  ->E(Avg 113.596KT 'LOW')  ->K(Avg 128.188KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------D------------------------------------------------------------------------------------------------------------------------------
+     ------------------------------------------------E-hm-------------------------h---------h----h---m-----m-------h-m-h-m----------hmh------mhm--------------h---------------------
+     ------------------------------------------------K-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+Site 49  ->A(Avg 96.9283KT 'LOW')  ->E(Avg 128.869KT 'LOW')  ->G(Avg 53.2007KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -------------------------------------------------Ah--------------------------h---------h----h---m-----m-------h-m-h------------h-h-------m---------------m---------------------
+     ------------------------------------------------mEhm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     -------------------------------------------------G-----------------------------------------------------------------------------------------------------------------------------
+Site 50  ->M(Avg 130.746KT 'LOW')  ->Y(Avg 8.75457KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-Mm-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     --------------------------------------------------Y----------------------------------------------------------------------------------------------------------------------------
+Site 51  ->G(Avg 124.114KT 'LOW')  ->I(Avg 50.3631KT 'LOW')  ->L(Avg 109.899KT 'LOW')  ->P(Avg 126.589KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-eG-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ---------------------------------------------------I---------------------------------------------------------------------------------------------------------------------------
+     ------------------------------------------------m-hL-------------------------h---------h----h---m-----m-------h---h-m----------hmh------mhm--------------m---------------------
+     ------------------------------------------------m-eP-------------m-----------h---------h----h---m-----h-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 52  ->A(Avg 84.5143KT 'LOW')  ->R(Avg 116.221KT 'LOW')  ->G(Avg 129.628KT 'LOW')  ->M(Avg 129.612KT 'LOW')  ->V(Avg 98.6374KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------m-A------------------------m---------m----m---m-------------m---m------------m-m-------m---------------m---------------------
+     --------------------------------------------------h-R------------m-----------h---------h----h---m-----m-------h-m-h------------hmh------mh---------------h---------------------
+     ------------------------------------------------m-hmG------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     ------------------------------------------------m-emM------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------h-V------------------------m---------m----m---------m-------m---m-m----------mmm-------m---------------m---------------------
+Site 53  ->N(Avg 124.829KT 'LOW')  ->D(Avg 93.3938KT 'LOW')  ->Q(Avg 120.63KT 'LOW')  ->E(Avg 131.275KT 'LOW')  ->G(Avg 114.463KT 'LOW')  ->K(Avg 110.329KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-N-----------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------m--D-----------------------m---------m----m---------m-------m-m-m------------mmm-------h---------------m---------------------
+     --------------------------------------------------e--Q-----------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-E-----------m-----------e---------e----e---h-----h-------e-m-h-m---------mhmh------mem--------------h---------------------
+     --------------------------------------------------h--G-----------m-----------h---------h----h---m-----m-------h-m-h-m----------hmh------mh---------------h---------------------
+     --------------------------------------------------h--K-----------m-----------h---------h----h---m-----m-------h-m-h------------hmh------mh---------------h---------------------
+Site 54  ->K(Avg 126.925KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em--K----------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 62  ->R(Avg 129.586KT 'LOW')  ->N(Avg 119.405KT 'LOW')  ->D(Avg 114.157KT 'LOW')  ->G(Avg 129.546KT 'LOW')  ->H(Avg 131.506KT 'M')  ->K(Avg 131.379KT 'M')  ->P(Avg 109.267KT 'LOW')  ->S(Avg 100.395KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e-----------R--m-----------e---------e----e---h-----h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------e-----------N--m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------h-----------D--m-----------h---------h----h---m-----m-------h-m-h------------hmh------mh---------------h---------------------
+     ------------------------------------------------m-e-----------G--m-----------e---------e----e---m-----h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em----------H--m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     ------------------------------------------------m-em----------K--m-----------e---------e----e---h-----h-------h-m-h-m---------mhmh------mem--------------h---------------------
+     --------------------------------------------------h-----------P--------------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     --------------------------------------------------h-----------S--------------h---------h----h---m-----m-------h---m-m----------m-h-------m---------------m---------------------
+Site 63  ->N(Avg 122.45KT 'LOW')  ->D(Avg 106.181KT 'LOW')  ->E(Avg 118.975KT 'LOW')  ->H(Avg 120.364KT 'LOW')  ->K(Avg 117.13KT 'LOW')  ->T(Avg 123.881KT 'LOW')  ->Y(Avg 124.078KT 'LOW')  ->V(Avg 127.588KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e------------N-m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------h------------D-------------h---------h----h---m-----m-------h-m-h-m----------hmh------mm---------------m---------------------
+     ------------------------------------------------m-h------------E-m-----------h---------h----h---h-----m-------h-m-h-m----------hmh------mhm--------------h---------------------
+     --------------------------------------------------e------------H-m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     --------------------------------------------------h------------K-m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     ------------------------------------------------m-em-----------T-m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-e------------Y-m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-hm-----------V-m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+Site 64  ->N(Avg 74.4419KT 'LOW')  ->G(Avg 74.4764KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------m-------------N------------m---------m----m-----------------m---m------------m-m-----------------------m---------------------
+     --------------------------------------------------m-------------G--------------------------------------------------------------------------------------------------------------
+Site 65  ->C(Avg 22.2966KT 'LOW')  ->F(Avg 129.927KT 'LOW')  ->P(Avg 130.753KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -----------------------------------------------------------------C-------------------------------------------------------------------------------------------------------------
+     ------------------------------------------------m-em-------------F-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     ------------------------------------------------m-em-------------P-----------e---------e----e---m-----m-------h-m-h-m---------mhmh------mem--------------h---------------------
+Site 66  ->A(Avg 123.462KT 'LOW')  ->K(Avg 82.8244KT 'LOW')  ->T(Avg 124.171KT 'LOW')  ->V(Avg 94.5396KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------mA----------h---------h----h---m-----h-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------m---------------K----------m---------m----m-----------------m---m------------m-m---------------------------------------------
+     ------------------------------------------------m-e--------------mT----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     --------------------------------------------------h---------------V----------h---------h----h---m-------------m-m-h------------h-h-------m---------------m---------------------
+Site 74  ->Y(Avg 59.2966KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------------------------------Y----------------------------------------------------------------------------------------------------
+Site 75  ->I(Avg 131.086KT 'LOW')  ->L(Avg 128.911KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m---------I-e---------e----e---h-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m---------L-e---------e----e---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 76  ->D(Avg 130.371KT 'LOW')  ->E(Avg 109.962KT 'LOW')  ->G(Avg 124.37KT 'LOW')  ->H(Avg 119.159KT 'LOW')  ->F(Avg 112.317KT 'LOW')  ->S(Avg 106.607KT 'LOW')  ->T(Avg 125.339KT 'LOW')  ->Y(Avg 132.265KT 'M')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m----------De---------e----e---m-----m-------e-m-h-m---------mhme------mhm--------------h---------------------
+     --------------------------------------------------h--------------m----------Eh---------h----h---m-----m-------h-m-h-----------mhmh------mh---------------m---------------------
+     ------------------------------------------------m-em-------------m----------Gh---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------h--------------m----------Hh---------h----h---h-----m-------h-m-h-m----------hmh------mhm--------------h---------------------
+     ------------------------------------------------m-h--------------m----------Fh---------h----h---m-----m-------h-m-h-----------mhmh------mh---------------m---------------------
+     --------------------------------------------------h-------------------------Sh---------h----h---m-----m-------h---h------------hmh-------m---------------m---------------------
+     ------------------------------------------------m-e--------------m----------Th---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m----------Yh---------h----h---m-----m-------h-m-h-m---------mhmh------mem--------------h---------------------
+Site 78  ->A(Avg 105.096KT 'LOW')  ->G(Avg 113.279KT 'LOW')  ->L(Avg 107.271KT 'LOW')  ->M(Avg 132.896KT 'H')  ->F(Avg 107.937KT 'LOW')  ->V(Avg 126.414KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------m-----------hA--------h----h---m-----m-------h-m-h-----------mhmh------mh---------------m---------------------
+     --------------------------------------------------h--------------m-----------hG--------h----h---m-----m-------h-m-h------------hmh------mh---------------h---------------------
+     --------------------------------------------------h--------------------------hL--------h----h---m-----m-------h---h-m----------hmh------mm---------------m---------------------
+     ------------------------------------------------m-em-------------m-----------eM--------e----e---h-----m-------e-m-h-m---------mhme------mem--------------h---------------------
+     ------------------------------------------------m-hm-------------------------hF--------h----h---m-----m-------h-m-h-m----------hmh-------hm--------------m---------------------
+     ------------------------------------------------m-e--------------m-----------hV--------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 79  ->A(Avg 132.43KT 'M')  ->R(Avg 100.315KT 'LOW')  ->I(Avg 119.768KT 'LOW')  ->L(Avg 127.418KT 'LOW')  ->K(Avg 127.01KT 'LOW')  ->F(Avg 129.833KT 'LOW')  ->P(Avg 121.9KT 'LOW')  ->T(Avg 128.279KT 'LOW')  ->W(Avg 116.651KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e-A-------e----e---m-----m-------e-m-h-m---------mhmh------mem--------------h---------------------
+     --------------------------------------------------h--------------------------h-R-------h----h---m-----m-------h-m-h------------hmh-------m---------------m---------------------
+     ------------------------------------------------m-e--------------m-----------h-I-------h----h---m-----m-------h-m-h-m----------hmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h-L-------h----h---m-----h-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h-K-------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e-F-------e----e---m-----h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h-P-------h----h---m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h-T-------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-h--------------m-----------h-W-------h----h---m-----m-------h-m-h-m----------hmh------mhm--------------h---------------------
+Site 80  ->R(Avg 120.898KT 'LOW')  ->N(Avg 128.308KT 'LOW')  ->G(Avg 115.308KT 'LOW')  ->L(Avg 121.09KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-hm-------------m-----------h--R------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-e--------------m-----------h--N------h----h---m-----h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------h--------------m-----------h--G------h----h---m-----m-------h-m-h-m----------hmh------mh---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h--L------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 81  ->G(Avg 119.962KT 'LOW')  ->I(Avg 130.518KT 'LOW')  ->P(Avg 127.137KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---G-----h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---I-----h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---P-----h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 83  ->E(Avg 128.846KT 'LOW')  ->K(Avg 125.601KT 'LOW')  ->F(Avg 130.826KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h-----E---h----h---m-----m-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h-----K---h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h-----F---h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+Site 84  ->N(Avg 55.5301KT 'LOW')  ->D(Avg 119.974KT 'LOW')  ->G(Avg 130.674KT 'LOW')  ->H(Avg 129.783KT 'LOW')  ->P(Avg 126.724KT 'LOW')  ->S(Avg 124.933KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------------------------------------------N------------------------------------------------------------------------------------------
+     --------------------------------------------------e--------------m-----------h------D--h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e------G--e----e---h-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e------H--e----e---m-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h------P--h----h---m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h------S--h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 85  ->A(Avg 108.796KT 'LOW')  ->N(Avg 132.132KT 'M')  ->D(Avg 131.136KT 'LOW')  ->E(Avg 89.6493KT 'LOW')  ->G(Avg 128.552KT 'LOW')  ->P(Avg 131.28KT 'LOW')  ->S(Avg 121.295KT 'LOW')  ->T(Avg 128.221KT 'LOW')  ->V(Avg 130.184KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------h-------A-h----h---m-----m-------h-m-h------------hmh-------h---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e-------N-e----e---m-----h-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e-------D-e----e---h-----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     --------------------------------------------------m--------------------------m-------E-m----m---m-------------m---m------------m-m-------m---------------m---------------------
+     ------------------------------------------------m-em-------------m-----------e-------G-e----e---m-----h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e-------P-e----e---h-----h-------e-m-h-m---------meme------mem--------------h---------------------
+     ------------------------------------------------m-h--------------m-----------h-------S-h----h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h-------T-h----h---m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+     ------------------------------------------------m-e--------------m-----------e-------V-e----e---m-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+Site 86  ->G(Avg 105.465KT 'LOW')  ->L(Avg 132.256KT 'M')  ->F(Avg 123.135KT 'LOW')  ->Y(Avg 64.8516KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------h--------Gh----h---m-----m-------h---h-m----------h-h-------m---------------m---------------------
+     ------------------------------------------------m-em-------------m-----------e--------Le----e---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h--------Fh----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------m-----------------------------------Y----------------------------------------------------------------------------------------
+Site 88  ->A(Avg 130.896KT 'LOW')  ->R(Avg 132.201KT 'M')  ->N(Avg 75.07KT 'LOW')  ->D(Avg 86.6816KT 'LOW')  ->G(Avg 131.145KT 'LOW')  ->Y(Avg 129.754KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e---------eA---e---m-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------eR---e---h-----m-------e-m-h-m---------mhmh------mem--------------h---------------------
+     --------------------------------------------------m--------------------------m---------mN---m-----------------m---m------------m-m-----------------------m---------------------
+     --------------------------------------------------m--------------------------m---------mD---m---------m-------m---m------------m-m-------m---------------m---------------------
+     ------------------------------------------------m-em-------------m-----------e---------eG---e---h-----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------hY---h---m-----m-------h-m-h-m---------mhhh------me---------------h---------------------
+Site 89  ->R(Avg 128.809KT 'LOW')  ->N(Avg 123.184KT 'LOW')  ->D(Avg 104.38KT 'LOW')  ->Q(Avg 133.599KT 'E')  ->E(Avg 121.198KT 'LOW')  ->G(Avg 129.952KT 'LOW')  ->K(Avg 100.918KT 'LOW')  ->S(Avg 131.507KT 'M')  ->T(Avg 121.928KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---------h-R--h---m-----m-------h-m-h-m---------mhmh------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h-N--h---m-----m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------h--------------------------h---------h-D--h---m-----m-------h-m-h-----------mhmh-------h---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e-Q--e---h-----m-------e-m-h-m---------mhmh------mem--------------h---------------------
+     --------------------------------------------------e--------------m-----------h---------h-E--h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+     ------------------------------------------------m-e--------------m-----------e---------e-G--e---h-----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     --------------------------------------------------h--------------------------h---------h-K--h---m-----m-------h---m------------m-h-------m---------------m---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e-S--e---h-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h-T--h---m-----m-------h-m-h-m---------mhmh------mh---------------h---------------------
+Site 91  ->R(Avg 132.474KT 'H')  ->N(Avg 130.439KT 'LOW')  ->E(Avg 67.7761KT 'LOW')  ->L(Avg 89.553KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e---------e---Re---m-----h-------e-m-h-m---------mhhe------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h---Nh---m-----m-------h-m-h-m---------mhhh------mem--------------h---------------------
+     --------------------------------------------------m----------------------------------------E------------------m----------------------------------------------------------------
+     --------------------------------------------------m--------------------------m---------m---Lm---m-----m-------m-m-m------------m-m-------m---------------m---------------------
+Site 93  ->R(Avg 127.309KT 'LOW')  ->K(Avg 110.398KT 'LOW')  ->S(Avg 129.993KT 'LOW')  ->T(Avg 90.3145KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-hm-------------m-----------h---------h----hR--m-----m-------h-m-h-m---------mhmh------me---------------h---------------------
+     --------------------------------------------------h--------------------------h---------h----hK--m-----m-------h-m-h-m----------hmh-------h---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----eS--m-----m-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------h--------------------------m---------m----mT--m-----m-------m---m------------m-m-------m---------------m---------------------
+Site 94  ->R(Avg 132.199KT 'M')  ->L(Avg 131.372KT 'M')  ->S(Avg 133.432KT 'H')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e---------e----e-R-m-----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e-L-m-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e-S-h-----m-------e-m-h-m---------mhmh------mem--------------h---------------------
+Site 95  ->K(Avg 125.782KT 'LOW')  ->V(Avg 132.29KT 'M')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---------h----h--Km-----h-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e--Vm-----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+Site 96  ->E(Avg 126.299KT 'LOW')  ->K(Avg 22.5601KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e--------------m-----------e---------e----e---E-----m-------e-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------------------------------------------------------K------------------------------------------------------------------------------
+Site 97  ->A(Avg 100.365KT 'LOW')  ->N(Avg 87.0914KT 'LOW')  ->L(Avg 130.868KT 'LOW')  ->S(Avg 130.724KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------h---------h----h---mA----m-------h---m-m----------m-m-------m---------------m---------------------
+     --------------------------------------------------m--------------------------m---------m----m---mN------------m---m------------m-m-------m---------------m---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---mL----h-------e-m-h-m---------mhme------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---hS----h-------e-m-h-m---------mhme------mhm--------------h---------------------
+Site 98  ->K(Avg 124.529KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-K---m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 100  ->Q(Avg 122.985KT 'LOW')  ->Y(Avg 129.645KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m---Q-m-------h-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-e--------------m-----------e---------e----e---h---Y-h-------e-m-h-m---------mhmh------mhm--------------h---------------------
+Site 101  ->G(Avg 102.243KT 'LOW')  ->K(Avg 126.945KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------h---------h----h---m----Gm-------h---m-m----------m-h-------mm--------------m---------------------
+     ------------------------------------------------m-e--------------m-----------e---------e----e---m----Km-------h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 102  ->G(Avg 12.8253KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------------------------------------------------------------G------------------------------------------------------------------------
+Site 103  ->A(Avg 67.5331KT 'LOW')  ->E(Avg 129.587KT 'LOW')  ->K(Avg 129.115KT 'LOW')  ->S(Avg 101.162KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     -------------------------------------------------------------------------------------------------------A---------------------------------m-------------------------------------
+     ------------------------------------------------m-e--------------m-----------e---------e----e---m-----hE------e-m-h-m---------mhme------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----mK------e-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-h--------------------------h---------h----h---m-----mS------h---m-m----------m-h-------mm--------------m---------------------
+Site 104  ->E(Avg 115.65KT 'LOW')  ->T(Avg 128.522KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-E-----h-m-h-----------mhmh------mh---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---h-----m-T-----h-m-h-m---------mhmh------mem--------------h---------------------
+Site 108  ->K(Avg 105.393KT 'LOW')  ->S(Avg 126.542KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-----K-h-m-m-----------mhmh------mh---------------m---------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---h-----m-----S-h-m-h-m---------mhmh------mhm--------------h---------------------
+Site 109  ->D(Avg 128.592KT 'LOW')  ->G(Avg 126.538KT 'LOW')  ->S(Avg 71.5555KT 'LOW')  ->Y(Avg 97.0168KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----m------Dh-m-h-m---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m------Gh-m-h-m---------mhmh------me---------------h---------------------
+     --------------------------------------------------m--------------------------m---------m----m----------------Sm---m------------m-m---------------------------------------------
+     --------------------------------------------------h--------------------------m---------m----m---m------------Ym---m------------m-m-------m---------------m---------------------
+Site 113  ->K(Avg 130.496KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-mKh-m---------mhmh------mem--------------h---------------------
+Site 115  ->A(Avg 128.56KT 'LOW')  ->Q(Avg 89.8465KT 'LOW')  ->L(Avg 133.428KT 'H')  ->Y(Avg 107.956KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----h-------e-m-hAm---------mhmh------mhm--------------h---------------------
+     --------------------------------------------------h--------------------------m---------m----m---m-----m-------m---mQ-----------m-m-------m---------------m---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-hLm---------mhhe------mem--------------h---------------------
+     ------------------------------------------------m-hm-------------------------h---------h----h---m-----m-------h---hYm----------hmh------mmm--------------m---------------------
+Site 116  ->A(Avg 114.96KT 'LOW')  ->F(Avg 128.782KT 'LOW')  ->W(Avg 50.8242KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-A---------mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-F---------mhme------mem--------------h---------------------
+     --------------------------------------------------------------------------------------------------------------------W----------------------------------------------------------
+Site 117  ->A(Avg 109.6KT 'LOW')  ->G(Avg 125.505KT 'LOW')  ->L(Avg 120.995KT 'LOW')  ->F(Avg 130.578KT 'LOW')  ->T(Avg 117.272KT 'LOW')  ->V(Avg 121.925KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h--A---------hmh------mh---------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h--G--------mhmh------mem--------------h---------------------
+     --------------------------------------------------e--------------m-----------h---------h----h---m-----m-------h-m-h-mL--------mhmh------mh---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----m-------e-m-h-mF--------mhmh------mem--------------h---------------------
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-------h-m-h--T---------hmh------mh---------------h---------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-mV--------mhmh------mh---------------h---------------------
+Site 118  ->G(Avg 90.6268KT 'LOW')  ->S(Avg 126.382KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------m---------m----m---m-------------m---m---G--------m-m-------m---------------m---------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----h-------h-m-h-m-S-------mhmh------mhm--------------h---------------------
+Site 122  ->R(Avg 124.774KT 'LOW')  ->G(Avg 130.193KT 'LOW')  ->K(Avg 105.629KT 'LOW')  ->P(Avg 124.364KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e--------------m-----------h---------h----h---h-----m-------h-m-h-m-----R---mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---h-----m-------h-m-h-m-----G---mhmh------mem--------------h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h-------K---mh-h-------h---------------h---------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m-----P---mhmh------mhm--------------h---------------------
+Site 123  ->H(Avg 128.758KT 'LOW')  ->S(Avg 130.841KT 'LOW')  ->W(Avg 110.837KT 'LOW')  ->Y(Avg 88.5417KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e--------------m-----------e---------e----e---h-----m-------e-m-h-m------H--mhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m------S--mhmh------mem--------------h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h---h--------W---hmh-------m---------------m---------------------
+     --------------------------------------------------h--------------------------m---------m----m---m-----m-------m---m--------Y---m-m-------m---------------m---------------------
+Site 124  ->N(Avg 132.469KT 'M')  ->G(Avg 51.7645KT 'LOW')  ->W(Avg 128.719KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----h-------e-m-h-m-------N-mhhh------mem--------------h---------------------
+     ----------------------------------------------------------------------------------------------------------------------------G--------------------------------------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----m-------h-m-h-m-------W-mhmh------mhm--------------h---------------------
+Site 125  ->N(Avg 87.2073KT 'LOW')  ->I(Avg 132.329KT 'M')  ->L(Avg 97.5303KT 'LOW')  ->F(Avg 117.914KT 'LOW')  ->P(Avg 129.404KT 'LOW')  ->V(Avg 129.221KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------m--------------------------m---------m----m---m-------------m---m----------N-m-m-------m---------------m---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m--------Imhmh------mem--------------h---------------------
+     --------------------------------------------------h--------------------------m---------m----m---m-----m-------m---m----------L-mmm------mm---------------m---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m--------F-hmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----h-------e-m-h-m--------Pmhmh------mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m--------Vmhmh------mem--------------h---------------------
+Site 126  ->A(Avg 34.5462KT 'LOW')  ->G(Avg 119.365KT 'LOW')  ->K(Avg 126.23KT 'LOW')  ->S(Avg 129.484KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------------------------------------------------------------------------------------A------------------------------------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------Ghmh------mhm--------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------Khhh------me---------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----h-------h-m-h-m---------Shmh------mem--------------h---------------------
+Site 128  ->L(Avg 129.153KT 'LOW')  ->F(Avg 130.537KT 'LOW')  ->W(Avg 42.9493KT 'LOW')  ->Y(Avg 103.39KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhLh------mem--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----m-------h-m-h-m---------mhFh------mem--------------h---------------------
+     --------------------------------------------------------------------------------------------------------------------------------W----------------------------------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h---m-m----------hYh------mm---------------m---------------------
+Site 130  ->E(Avg 95.4742KT 'LOW')  ->I(Avg 104.739KT 'LOW')  ->K(Avg 126.187KT 'LOW')  ->Y(Avg 98.257KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------m---------m----m---m-------------m---m------------m-mE------m---------------m---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h-----------mh-hI------h---------------m---------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---h-----m-------h-m-h-m---------mhmhK-----mhm--------------h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h---m------------mmhY------m---------------m---------------------
+Site 131  ->A(Avg 125.9KT 'LOW')  ->N(Avg 125.783KT 'LOW')  ->D(Avg 119.163KT 'LOW')  ->E(Avg 123.146KT 'LOW')  ->G(Avg 87.8199KT 'LOW')  ->K(Avg 110.342KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e--------------m-----------h---------h----h---h-----m-------h-m-h-m---------mhmh-A----mhm--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh-N----mhm--------------h---------------------
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh-D----mhm--------------h---------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh-E----mh---------------h---------------------
+     --------------------------------------------------m--------------------------m---------m----m---------m-------m---m------------m-m-G---------------------m---------------------
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-------h-m-h------------hmh-K----mh---------------h---------------------
+Site 136  ->L(Avg 28.2284KT 'LOW')  ->M(Avg 127.868KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ----------------------------------------------------------------------------------------------------------------------------------------L--------------------------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----m-------h-m-h-m---------mhmh------Mhm--------------h---------------------
+Site 137  ->K(Avg 130.939KT 'LOW')  ->P(Avg 22.6694KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mKm--------------h---------------------
+     -----------------------------------------------------------------------------------------------------------------------------------------P-------------------------------------
+Site 138  ->A(Avg 129.09KT 'LOW')  ->N(Avg 123.427KT 'LOW')  ->D(Avg 44.3456KT 'LOW')  ->E(Avg 117.318KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e--------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mhA--------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhN--------------h---------------------
+     ------------------------------------------------------------------------------------------------------------------------------------------D------------------------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhE--------------h---------------------
+Site 139  ->N(Avg 98.1733KT 'LOW')  ->D(Avg 112.064KT 'LOW')  ->E(Avg 130.556KT 'LOW')  ->K(Avg 119.927KT 'LOW')  ->S(Avg 113.986KT 'LOW')  ->W(Avg 128.778KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h------------h-h-------m-N-------------m---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h------------hmh------mh-D-------------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----h-------e-m-h-m---------mhmh------memE-------------h---------------------
+     --------------------------------------------------e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh-K-------------h---------------------
+     ------------------------------------------------m-hm-------------------------h---------h----h---m-----m-------h---h-m----------hmh------mhmS-------------m---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----m-------h-m-h-m---------mhmh------mhmW-------------h---------------------
+Site 140  ->A(Avg 128.044KT 'LOW')  ->E(Avg 129.59KT 'LOW')  ->K(Avg 116.202KT 'LOW')  ->T(Avg 122.355KT 'LOW')  ->V(Avg 69.8565KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----h-------h-m-h-m---------mhmh------mhm-A------------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----h-------h-m-h-m---------mhmh------mem-E------------h---------------------
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m----------hmh------mh--K------------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm-T------------h---------------------
+     --------------------------------------------------m--------------------------m---------m----m-----------------m---m------------m-m----------V----------------------------------
+Site 141  ->R(Avg 124.367KT 'LOW')  ->E(Avg 130.665KT 'LOW')  ->K(Avg 123.142KT 'LOW')  ->P(Avg 69.6792KT 'LOW')  ->T(Avg 118.476KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----h-------h-m-h-m---------mhmh------mhm--R-----------h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mhm--E-----------h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--K-----------h---------------------
+     --------------------------------------------------m--------------------------m---------m----m-----------------m---m------------m-m-----------P---------------------------------
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-------h-m-h------------hmh------mh---T-----------h---------------------
+Site 142  ->I(Avg 79.7347KT 'LOW')  ->T(Avg 111.245KT 'LOW')  ->W(Avg 110.92KT 'LOW')  ->V(Avg 126.036KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------m--------------------------m---------m----m-----------------m---m------------m-m------------I----------m---------------------
+     ------------------------------------------------m-hm-------------------------h---------h----h---m-----m-------h---h-m----------hmh------mhm---T----------m---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h---h------------hmh------mm----W----------m---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm---V----------h---------------------
+Site 143  ->W(Avg 121.948KT 'LOW')  ->Y(Avg 121.809KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m----------hmh------mhm----W---------h---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm----Y---------h---------------------
+Site 147  ->D(Avg 121.021KT 'LOW')  ->K(Avg 111.853KT 'LOW')  ->P(Avg 122.656KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------D-----h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h------------hmh-------m---------K-----h---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------P-----h---------------------
+Site 148  ->R(Avg 89.7216KT 'LOW')  ->L(Avg 123.407KT 'LOW')  ->K(Avg 119.225KT 'LOW')  ->S(Avg 111.607KT 'LOW')  ->Y(Avg 126.901KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------m---------m----m---m-------------m---m------------m-m-------m----------R----m---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm---------L----h---------------------
+     --------------------------------------------------e--------------m-----------h---------h----h---m-----m-------h-m-h-----------mhmh------mhm---------K----h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h-m----------hmh------mm----------S----m---------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm---------Y----h---------------------
+Site 149  ->A(Avg 123.489KT 'LOW')  ->E(Avg 109.119KT 'LOW')  ->I(Avg 122.022KT 'LOW')  ->P(Avg 120.478KT 'LOW')  ->T(Avg 132.744KT 'H')  ->V(Avg 102.711KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm----------A---h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h---h------------hmh-------m-----------E---m---------------------
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh-----------I---h---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m----------hmh------mhm----------P---h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mem----------T---h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h-----------mh-h-------h-----------V---m---------------------
+Site 150  ->N(Avg 121.253KT 'LOW')  ->G(Avg 127.256KT 'LOW')  ->K(Avg 131.639KT 'M')  ->P(Avg 92.5724KT 'LOW')  ->S(Avg 118.067KT 'LOW')  ->T(Avg 107.649KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm-----------N--h---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---h-----h-------h-m-h-m---------mhmh------mhm-----------G--h---------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----h-------e-m-h-m---------mhmh------mem-----------K--h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------m---m------------m-m-------m------------P--m---------------------
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m----------hmh------mh------------S--h---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h---h-m----------hmh------mmm-----------T--m---------------------
+Site 151  ->N(Avg 99.0525KT 'LOW')  ->G(Avg 82.0243KT 'LOW')  ->K(Avg 120.388KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------m---------m----m---m-----m-------h---m------------mmm-------m-------------N-m---------------------
+     --------------------------------------------------m--------------------------m---------m----m-----------------m---m------------m-m---------------------G-m---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm------------K-h---------------------
+Site 152  ->R(Avg 118.802KT 'LOW')  ->K(Avg 81.2366KT 'LOW')  ->F(Avg 131.614KT 'M')  ->S(Avg 122.327KT 'LOW')  ->T(Avg 109.103KT 'LOW')  ->Y(Avg 130.483KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mh--------------Rh---------------------
+     --------------------------------------------------m--------------------------m---------m----m-----------------m---m------------m-m-------m--------------Km---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem-------------Fh---------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm-------------Sh---------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h---h------------hmh-------m--------------Tm---------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----h-------h-m-h-m---------mhmh------mem-------------Yh---------------------
+Site 154  ->R(Avg 124.3KT 'LOW')  ->N(Avg 119.101KT 'LOW')  ->D(Avg 132.733KT 'H')  ->G(Avg 97.031KT 'LOW')  ->H(Avg 101.445KT 'LOW')  ->K(Avg 132.914KT 'H')  ->S(Avg 126.298KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------hR--------------------
+     ------------------------------------------------m-h--------------m-----------h---------h----h---m-----m-------h-m-h-----------mhmh------mh---------------hN--------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----h-------e-m-h-m---------mhmh------mem--------------hD--------------------
+     --------------------------------------------------m--------------------------m---------m----m---m-----m-------h---m------------mmm-------m---------------mG--------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h------------h-h-------m---------------mH--------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhme------mem--------------hK--------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mem--------------hS--------------------
+Site 155  ->R(Avg 112.158KT 'LOW')  ->D(Avg 129.469KT 'LOW')  ->G(Avg 109.075KT 'LOW')  ->K(Avg 121.075KT 'LOW')  ->S(Avg 130.194KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h-m----------hmh------mh---------------h-R-------------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------me---------------h-D-------------------
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h------------hmh------mm---------------m-G-------------------
+     ------------------------------------------------m-hm-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h-K-------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhmh------mhm--------------h-S-------------------
+Site 156  ->R(Avg 127.979KT 'LOW')  ->G(Avg 121.677KT 'LOW')  ->K(Avg 100.869KT 'LOW')  ->T(Avg 133.886KT 'E')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-e--------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhmh------mhm--------------h--R------------------
+     --------------------------------------------------e--------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhmh------mhm--------------h--G------------------
+     --------------------------------------------------h--------------------------m---------m----m---m-----m-------h---m------------m-m-------m---------------m--K------------------
+     ------------------------------------------------m-em-------------m-----------e---------e----e---h-----h-------e-m-h-m---------mhhe------mem--------------h--T------------------
+Site 157  ->K(Avg 114.633KT 'LOW')  ->P(Avg 130.632KT 'LOW')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     --------------------------------------------------h--------------------------h---------h----h---m-----m-------h-m-h-m----------hmh------mh---------------h---K-----------------
+     ------------------------------------------------m-em-------------m-----------h---------h----h---m-----m-------h-m-h-m---------mhhh------mem--------------h---P-----------------
+Site 158  ->F(Avg 133.428KT 'H')  
+               10        20        30        40        50        60        70        80        90        100       110       120       130       140       150       160       170  
+     +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----
+     ------------------------------------------------m-em-------------m-----------e---------e----e---m-----m-------e-m-h-m---------mhhh------mem--------------h----F----------------
