@@ -9,4 +9,8 @@ class PageController < ApplicationController
   def PFSPwin
 	send_file "app/assets/Doc/PFSP_1.2_Multi_Core.rar"
   end
+  
+  def methdns
+	send_file "app/assets/Doc/perlcode.tgz"
+  end
 end
